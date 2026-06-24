@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Animations */
+:root {
+  --brand-purple: #603177;
+  --brand-purple-light: #7a4d8f;
+  --brand-orange: #f48f12;
+  --brand-orange-hover: #d67a0a;
+  --brand-dark: #1f2937;
+}
+
+/* Global Typography */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--brand-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-sans {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fallback Utility Classes for Tailwind Colors */
+.text-brand-purple {
+  color: var(--brand-purple) !important;
+}
+.bg-brand-purple {
+  background-color: var(--brand-purple) !important;
+}
+.border-brand-purple {
+  border-color: var(--brand-purple) !important;
+}
+
+.text-brand-purpleLight {
+  color: var(--brand-purple-light) !important;
+}
+.bg-brand-purpleLight {
+  background-color: var(--brand-purple-light) !important;
+}
+
+.text-brand-orange {
+  color: var(--brand-orange) !important;
+}
+.bg-brand-orange {
+  background-color: var(--brand-orange) !important;
+}
+.border-brand-orange {
+  border-color: var(--brand-orange) !important;
+}
+
+.text-brand-orangeHover:hover {
+  color: var(--brand-orange-hover) !important;
+}
+.bg-brand-orangeHover:hover {
+  background-color: var(--brand-orange-hover) !important;
+}
+
+.bg-brand-dark {
+  background-color: var(--brand-dark) !important;
+}
+.text-brand-dark {
+  color: var(--brand-dark) !important;
+}
+
+.hover\:text-brand-purple:hover {
+  color: var(--brand-purple) !important;
+}
+.hover\:bg-brand-purple:hover {
+  background-color: var(--brand-purple) !important;
+}
+.group:hover .group-hover\:text-brand-purple {
+  color: var(--brand-purple) !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-fade-in-up {
+  animation-name: fadeInUp;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+/* Glassmorphism Utilities if needed custom */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbaaca; /* Light purple */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #603177; /* Brand purple */
+}
+
+.divider-path {
+  opacity: 0;
+  animation: fadeInPath 0.4s ease-out forwards;
+}
+
+.divider-diamond {
+  animation: fadeInDiamond 0.5s ease-out forwards;
+  transform-origin: center;
+}
+
+.divider-left-1 {
+  animation-delay: 0.1s;
+}
+
+.divider-right-1 {
+  animation-delay: 0.1s;
+}
+
+.divider-left-2 {
+  animation-delay: 0.25s;
+}
+
+.divider-right-2 {
+  animation-delay: 0.25s;
+}
+
+.divider-diamond {
+  animation-delay: 0s;
+}
+
+@keyframes fadeInPath {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fadeInDiamond {
+  from {
+    opacity: 0;
+    transform: scale(0) rotate(45deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* Pagination Styles */
+.pagination .nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.pagination .page-numbers {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  color: #4b5563;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus {
+  background-color: var(--brand-purple);
+  color: white;
+  border-color: var(--brand-purple);
+  transform: translateY(-2px);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.pagination .page-numbers.current {
+  background-color: var(--brand-orange);
+  color: white;
+  border-color: var(--brand-orange);
+  cursor: default;
+  pointer-events: none;
+}
+
+.pagination .page-numbers.dots {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: default;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {
+  padding: 0 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+/* Line Clamp Utilities */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
