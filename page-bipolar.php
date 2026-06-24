@@ -134,7 +134,7 @@ get_header();
                             class="text-2xl font-bold text-gray-900 mb-4 group-hover:text-brand-purple transition-colors">
                             Bipolar I</h3>
                         <p class="text-gray-600 leading-relaxed mb-6">
-                            Constructed by manic episodes that last at least 7 days or are severe enough to require
+                            Characterized by manic episodes that last at least 7 days or are severe enough to require
                             hospital care. Depressive episodes typically occur as well.
                         </p>
 

@@ -67,7 +67,7 @@ get_header();
             <!-- Quiz CTA -->
             <div class="p-2">
                 <p class="font-bold mb-1">Is TMS Right For You?</p>
-                <a href="/quiz"
+                <a href="<?php echo home_url('/tms-quiz'); ?>"
                     class="inline-block bg-white text-brand-purple hover:bg-brand-orange hover:text-white px-6 py-1 rounded-full font-semibold uppercase text-xs tracking-wider transition-all shadow-sm transform hover:scale-105 hover:shadow-md">
                     Take 2-Min Quiz
                 </a>
@@ -128,7 +128,7 @@ get_header();
                     combines state-of-the-art medical technology with the warmth of genuine human connection.
                 </p>
                 <p class="text-lg text-gray-100 leading-relaxed opacity-90">
-                    We believe that "Good Karma" isn't just a name , it's our philosophy. Every interaction is an
+                    We believe that "Good Karma" isn't just a name, it's our philosophy. Every interaction is an
                     opportunity to heal, support, and empower.
                 </p>
             </div>
@@ -281,7 +281,7 @@ get_header();
     style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/conditions-bg.svg'); background-size: cover; background-position: center;">
     <div class="container mx-auto px-4">
         <div class="text-center mb-10 max-w-3xl mx-auto">
-            <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-700 mb-1" data-aos="">Conditions We
+            <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-700 mb-1" data-aos="fade-up">Conditions We
                 Treat</h2>
             <!-- Animated Decorative SVG Divider -->
             <div class="w-full max-w-lg mx-auto mb-3 flex justify-center opacity-80">
@@ -327,8 +327,8 @@ get_header();
                     Psychiatric Evaluations to address treatment-resistant depression. We focus on evidence-based
                     medicine and APA-Aligned Treatment Plans to help you achieve lasting relief and reclaim your joy.
                     Every patient benefits from MD-Overseen Wellness Tracking, ensuring that your customized care
-                    precisely targets your specific needs and continually optimally monitors your progress along the
-                    path to sustainable mental wellness.</p>
+                    precisely targets your specific needs and continually and optimally monitors your progress along
+                    the path to sustainable mental wellness.</p>
             </div>
 
             <!-- Card 2: Anxiety -->
@@ -619,7 +619,7 @@ get_header();
                         <span class="text-gray-300">Sessions take less than 20 minutes</span>
                     </li>
                 </ul>
-                <a href="#"
+                <a href="<?php echo home_url('/tms'); ?>"
                     class="inline-block bg-white text-brand-purple font-semibold px-8 py-3 rounded-full hover:bg-brand-orange hover:text-white transition-all shadow-md hover:shadow-lg hover:-translate-y-1 uppercase tracking-wider text-xs">
                     Learn How It Works
                 </a>
@@ -1053,7 +1053,7 @@ get_header();
         <h2 class="font-sans text-3xl md:text-4xl font-bold mb-2">Ready to Reclaim Your Life?</h2>
         <p class="text-md opacity-90 mb-2 max-w-2xl mx-auto">Schedule your Board-Certified Psychiatric Evaluation today
             and take the first
-            step towards a brighter tailored future.</p>
+            step towards a brighter, healthier future.</p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="<?php echo home_url('contact'); ?>"
                 class="bg-gradient-to-r from-brand-orange to-brand-orangeHover text-white px-6 py-2 rounded-full font-bold uppercase tracking-wider transition-all transform hover:scale-105 hover:-translate-y-1 text-xs">

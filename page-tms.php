@@ -6,7 +6,7 @@ get_header();
     <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/pho to-1559757175-5700dde675bc?q=80&w=2071&auto=format&fit=crop"
+            <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2071&auto=format&fit=crop"
                 alt="TMS Therapy" class="w-full h-full object-cover">
             <div
                 class="absolute inset-0 bg-gradient-to-r from-brand-purple/95 via-brand-purple/80 to-brand-purple/60 mix-blend-multiply">

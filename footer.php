@@ -293,14 +293,15 @@
             <!-- Bottom Bar -->
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
                 <p class="text-gray-500 text-xs">
-                    &copy; 2024 Karma Doctors & Associates. All rights reserved.
+                    &copy; <?php echo date('Y'); ?> Karma Doctors & Associates. All rights reserved.
                 </p>
                 <div class="flex items-center gap-6 text-xs">
                     <a href="<?php echo home_url('/privacy-policy'); ?>"
                         class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
                     <a href="<?php echo home_url('/terms-conditions'); ?>"
                         class="text-gray-500 hover:text-white transition-colors">Terms & Conditions</a>
-                    <a href="#" class="text-gray-500 hover:text-white transition-colors">HIPAA Compliance</a>
+                    <a href="<?php echo home_url('/privacy-policy'); ?>#hipaa-notice"
+                        class="text-gray-500 hover:text-white transition-colors">HIPAA Compliance</a>
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ get_header();
         </div>
         <h1 class="font-sans text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight drop-shadow-lg tracking-tight"
             data-aos="fade-up" data-aos-delay="100">
-            Evidence Based Depression <br class="hidden md:block">Therapy in <span
+            Evidence-Based Depression <br class="hidden md:block">Therapy in <span
                 class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-300">Palm
                 Springs, CA</span>
         </h1>
@@ -399,8 +399,8 @@ get_header();
                 <div class="px-6 pb-8 flex-1">
                     <h3 class="text-2xl font-bold text-gray-900 mb-3">Medication Management</h3>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        Antidepressants can be an effective part of treatment found by working closely with our
-                        psychiatrists.
+                        Antidepressants work best as part of a comprehensive treatment plan developed in close
+                        collaboration with our psychiatrists.
                     </p>
                     <div class="space-y-3">
                         <div class="flex items-center text-sm text-gray-700 font-medium">

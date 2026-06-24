@@ -433,7 +433,7 @@ get_header();
                                 class="fas fa-clipboard-check text-4xl text-white/20 group-hover:text-white/40 transition-colors"></i>
                         </div>
 
-                        <h3 class="text-3xl font-bold mb-4">QBTest Testing</h3>
+                        <h3 class="text-3xl font-bold mb-4">QbTest Assessment</h3>
                         <p class="text-purple-100 text-sm leading-relaxed mb-8">
                             We use advanced diagnostic tools like QBTest to objectively measure attention and
                             impulsivity, ensuring an accurate diagnosis.

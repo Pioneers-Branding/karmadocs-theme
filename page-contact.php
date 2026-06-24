@@ -135,7 +135,7 @@ get_header();
                 style="min-height:587px;">
                 <iframe src="https://api.leadconnectorhq.com/widget/form/3wGWnbpRrnVPDlRfcvZq"
                     style="width:100%;height:100%;border:none;border-radius:20px" id="inline-3wGWnbpRrnVPDlRfcvZq"
-                    data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+                    data-layout="{&#39;id&#39;:&#39;INLINE&#39;}" data-trigger-type="alwaysShow" data-trigger-value=""
                     data-activation-type="alwaysActivated" data-activation-value=""
                     data-deactivation-type="neverDeactivate" data-deactivation-value=""
                     data-form-name="KarmaDocs Website Form" data-height="587"

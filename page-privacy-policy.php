@@ -88,7 +88,7 @@ get_header();
                         <div class="grid sm:grid-cols-2 gap-4">
                             
                             <!-- Subgroup: Messages -->
-                            <div class="bg-white p-4 rounded-xl border border-gray-150 shadow-sm flex items-start gap-3">
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex items-start gap-3">
                                 <div class="w-7 h-7 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple flex-shrink-0 mt-0.5">
                                     <i class="fas fa-bell text-xs"></i>
                                 </div>
@@ -99,7 +99,7 @@ get_header();
                             </div>
 
                             <!-- Subgroup: Rates -->
-                            <div class="bg-white p-4 rounded-xl border border-gray-150 shadow-sm flex items-start gap-3">
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex items-start gap-3">
                                 <div class="w-7 h-7 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple flex-shrink-0 mt-0.5">
                                     <i class="fas fa-dollar-sign text-xs"></i>
                                 </div>
@@ -110,7 +110,7 @@ get_header();
                             </div>
 
                             <!-- Subgroup: Opt-Out -->
-                            <div class="bg-white p-4 rounded-xl border border-gray-150 shadow-sm flex items-start gap-3">
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex items-start gap-3">
                                 <div class="w-7 h-7 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple flex-shrink-0 mt-0.5">
                                     <i class="fas fa-ban text-xs"></i>
                                 </div>
@@ -121,7 +121,7 @@ get_header();
                             </div>
 
                             <!-- Subgroup: Help -->
-                            <div class="bg-white p-4 rounded-xl border border-gray-150 shadow-sm flex items-start gap-3">
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex items-start gap-3">
                                 <div class="w-7 h-7 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple flex-shrink-0 mt-0.5">
                                     <i class="fas fa-info-circle text-xs"></i>
                                 </div>
@@ -203,7 +203,7 @@ get_header();
                     <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent my-10"></div>
 
                     <!-- Section 9: Contact Us -->
-                    <div class="bg-gray-50 border border-gray-150 p-6 md:p-8 rounded-3xl">
+                    <div class="bg-gray-50 border border-gray-200 p-6 md:p-8 rounded-3xl">
                         <div class="flex items-center mb-6">
                             <div class="w-10 h-10 bg-brand-orange text-white rounded-xl flex items-center justify-center mr-4 shadow-md">
                                 <i class="fas fa-paper-plane text-sm"></i>

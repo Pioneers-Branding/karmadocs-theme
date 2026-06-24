@@ -66,7 +66,7 @@ get_header();
                     <div class="space-y-6 text-gray-600 leading-relaxed text-lg">
                         <p>
                             Obsessive-Compulsive Disorder (OCD) is a chronic condition causing uncontrollable,
-                            reoccurring thoughts (obsessions) and behaviors (compulsions). Dealing with OCD can feel
+                            recurring thoughts (obsessions) and behaviors (compulsions). Dealing with OCD can feel
                             like being stuck in a mental loop that you can't break.
                         </p>
                         <p>
@@ -236,7 +236,7 @@ get_header();
                             class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-pink-500">Compulsions</span>
                     </h2>
                     <p class="text-gray-300 text-lg leading-relaxed mb-8">
-                        The cycle involves a trigger, an obsessed thought, high anxiety, and a compulsion to relieve it
+                        The cycle involves a trigger, an obsessive thought, high anxiety, and a compulsion to relieve it
                         temporarily.
                     </p>
 
