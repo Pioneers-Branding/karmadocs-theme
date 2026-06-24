@@ -15,7 +15,7 @@
     </div>
 
     <!-- Main Footer Content -->
-    <div class="relative z-10 pt-16 pb-8" id="#footer-location">
+    <div class="relative z-10 pt-16 pb-8" id="footer-location">
         <div class="container mx-auto px-4">
 
             <!-- Local SEO / Service Area Section -->
@@ -240,8 +240,7 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Palm Springs</p>
-                                <p class="text-gray-400 text-xs"> 560 S Paseo Dorotea Ste 4B, Palm Springs,<br> CA
-                                    92264, United States
+                                <p class="text-gray-400 text-xs">560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA 92264
                                 </p>
                             </div>
                         </div>
@@ -254,8 +253,7 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Rancho Mirage</p>
-                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr Suite 206-A, Rancho Mirage,<br> CA
-                                    92270, United States
+                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA 92270
                                 </p>
                             </div>
                         </div>
@@ -268,8 +266,8 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Twentynine Palms</p>
-                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy Ste 107-B, Twentynine Palms,<br> CA
-                                    92277, United States
+                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA
+                                    92277
                                 </p>
                             </div>
                         </div>

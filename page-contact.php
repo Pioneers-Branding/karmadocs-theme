@@ -154,22 +154,22 @@ get_header();
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100">
                         <h4 class="font-bold text-gray-900 mb-2">Palm Springs</h4>
-                        <p class="text-sm text-gray-500 leading-snug"> 560 S Paseo Dorotea Ste 4B, Palm Springs,<br> CA
-                            92264, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug"> 560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA
+                            92264</p>
                     </div>
                     <!-- Loc 2 -->
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100">
                         <h4 class="font-bold text-gray-900 mb-2">Rancho Mirage</h4>
-                        <p class="text-sm text-gray-500 leading-snug">35400 Bob Hope Dr Suite 206-A, Rancho Mirage,
-                            <br>CA 92270, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug">35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA
+                            92270</p>
                     </div>
                     <!-- Loc 3 -->
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100 sm:col-span-2">
                         <h4 class="font-bold text-gray-900 mb-2">Twentynine Palms</h4>
-                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy Ste 107-B, Twentynine
-                            Palms,<br> CA 92277, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy. Suite 107 - A Twentynine
+                            Palms, CA 92277</p>
                     </div>
                 </div>
             </div>
