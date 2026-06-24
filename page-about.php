@@ -224,14 +224,56 @@ get_header();
             <div class="flex flex-wrap justify-center gap-3 mb-12" data-aos="fade-up" data-aos-delay="50">
                 <button type="button"
                     class="team-filter px-5 py-3 rounded-full border border-brand-purple bg-brand-purple text-white text-sm font-semibold transition-all duration-300"
-                    data-filter="all">All Team</button>
+                    data-filter="all" aria-pressed="true">All Team</button>
                 <button type="button"
                     class="team-filter px-5 py-3 rounded-full border border-brand-purple bg-white text-brand-purple text-sm font-semibold transition-all duration-300"
-                    data-filter="provider">Providers</button>
+                    data-filter="provider" aria-pressed="false">Providers</button>
                 <button type="button"
                     class="team-filter px-5 py-3 rounded-full border border-brand-purple bg-white text-brand-purple text-sm font-semibold transition-all duration-300"
-                    data-filter="admin">Admin</button>
+                    data-filter="admin" aria-pressed="false">Admin</button>
             </div>
+
+            <script>
+                (function () {
+                    function setActiveButton(btn) {
+                        document.querySelectorAll('.team-filter').forEach(function (b) {
+                            b.classList.remove('bg-brand-purple', 'text-white');
+                            b.classList.add('bg-white', 'text-brand-purple');
+                            b.setAttribute('aria-pressed', 'false');
+                        });
+                        btn.classList.add('bg-brand-purple', 'text-white');
+                        btn.classList.remove('bg-white', 'text-brand-purple');
+                        btn.setAttribute('aria-pressed', 'true');
+                    }
+
+                    function filterTeams(filter) {
+                        document.querySelectorAll('.team-card').forEach(function (card) {
+                            var cat = card.getAttribute('data-category') || 'provider';
+                            if (filter === 'all' || cat === filter) {
+                                card.classList.remove('hidden');
+                                card.style.display = '';
+                            } else {
+                                card.classList.add('hidden');
+                                card.style.display = 'none';
+                            }
+                        });
+                    }
+
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var buttons = document.querySelectorAll('.team-filter');
+                        buttons.forEach(function (btn) {
+                            btn.addEventListener('click', function () {
+                                var filter = btn.getAttribute('data-filter');
+                                setActiveButton(btn);
+                                filterTeams(filter);
+                            });
+                        });
+                        // initial filter state
+                        var active = document.querySelector('.team-filter[aria-pressed="true"]');
+                        if (active) filterTeams(active.getAttribute('data-filter'));
+                    });
+                })();
+            </script>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- Dr. Lyle Forehand -->
