@@ -37,7 +37,7 @@
                                 Palm Springs
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                560 S Paseo Dorotea Ste 4B, Palm Springs, CA 92264, United States
+                                560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA 92264
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -59,7 +59,7 @@
                                 Rancho Mirage
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                35400 Bob Hope Dr Suite 206-A, Rancho Mirage, CA 92270, United States
+                                35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA 92270
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -81,7 +81,7 @@
                                 Twentynine Palms
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                72724 29 Palms Hwy Ste 107-B, Twentynine Palms, CA 92277, United States
+                                72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA 92277
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
