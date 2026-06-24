@@ -349,7 +349,7 @@ get_header();
                     </div>
                     <div class="p-6">
                         <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
-                            Bethany has been providing direct services to individuals for almost 20 years. She has
+                            Bethany has been providing direct services to individuals for almost 30+ years. She has
                             experience with Client-Centered Therapy, Systems Theories, Trauma-Focused Therapy, and
                             Cognitive-Behavior Therapy. She prides on being an advocate and tailoring unique services to
                             each person she supports.
