@@ -172,7 +172,7 @@ get_header();
 
             <div class="mt-10 pt-10 border-t border-gray-100 grid items-center grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="text-center md:text-left">
-                    <span class="block text-2xl font-bold text-brand-purple">20+</span>
+                    <span class="block text-2xl font-bold text-brand-purple">30+</span>
                     <span class="text-sm text-gray-500 uppercase tracking-wide">Years Experience</span>
                 </div>
                 <div class="text-center md:text-left">
