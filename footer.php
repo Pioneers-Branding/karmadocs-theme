@@ -147,7 +147,7 @@
                                 class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition-colors flex-shrink-0">
                                 <i class="fas fa-phone-alt"></i>
                             </div>
-                            <span>+1 (951) 297 8375</span>
+                            <span>+1 (951) 297-8375</span>
                         </a>
 
                         <!-- Fax -->
@@ -156,7 +156,7 @@
                                 class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-brand-orange flex-shrink-0">
                                 <i class="fas fa-fax"></i>
                             </div>
-                            <span>Fax: +1 (951) 602 8264</span>
+                            <span>Fax: +1 (951) 602-8264</span>
                         </div>
 
                         <!-- Email -->
@@ -184,14 +184,12 @@
                         <li><a href="<?php echo home_url('/about'); ?>"
                                 class="text-gray-400 text-sm hover:text-white transition-colors">About
                                 Us</a></li>
-                        <li><a href="<?php echo home_url('/about'); ?>"
+                        <li><a href="<?php echo home_url('/about/#team'); ?>"
                                 class="text-gray-400 text-sm hover:text-white transition-colors">Our
                                 Team</a></li>
-                        <li><a href="#process" class="text-gray-400 text-sm hover:text-white transition-colors">TMS
+                        <li><a href="<?php echo home_url('/tms'); ?>"
+                                class="text-gray-400 text-sm hover:text-white transition-colors">TMS
                                 Therapy</a></li>
-                        <li><a href="#conditions"
-                                class="text-gray-400 text-sm hover:text-white transition-colors">Patient
-                                Resources</a></li>
                     </ul>
                 </div>
 
