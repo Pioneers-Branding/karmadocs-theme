@@ -117,7 +117,7 @@ get_header();
                                 </div>
                                 <img src="https://sunderfoundation.org/wp-content/uploads/2023/03/Dr_sunder_Award_05.jpg"
                                     alt="Award Ceremony"
-                                    class="relative rounded-xl shadow-lg w-full object-cover h-140">
+                                    class="relative rounded-xl shadow-lg w-full object-cover h-48">
                             </div>
                         </div>
                     </div>
@@ -547,7 +547,7 @@ get_header();
                                 Leading discussions on Brain & Spine Health innovation with global policymakers at the
                                 G20-affiliated Neuroscience20 summit.
                             </p>
-                            <a href="#"
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Sunder+K"
                                 class="inline-flex items-center text-xs font-bold text-white hover:text-brand-purple transition-colors uppercase tracking-widest group-hover:translate-x-2 transform duration-300">
                                 View Report <i class="fas fa-arrow-right ml-2"></i>
                             </a>
@@ -582,8 +582,10 @@ get_header();
                             <!-- Image Grid -->
                             <div class="md:w-1/2 grid grid-cols-2 gap-4">
                                 <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80"
+                                    alt="Neuroscience research"
                                     class="rounded-2xl w-full h-40 object-cover opacity-80 mix-blend-overlay hover:opacity-100 transition-opacity">
                                 <img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?auto=format&fit=crop&q=80"
+                                    alt="Brain study"
                                     class="rounded-2xl w-full h-40 object-cover opacity-80 mix-blend-overlay hover:opacity-100 transition-opacity translate-y-8">
                             </div>
                         </div>

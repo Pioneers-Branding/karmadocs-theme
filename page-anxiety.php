@@ -265,7 +265,7 @@ get_header();
                         several of these persistently, it may be time to seek support.
                     </p>
 
-                    <a href="#contact"
+                    <a href="<?php echo home_url('/contact'); ?>"
                         class="inline-block px-8 py-4 rounded-full bg-white text-brand-purple font-bold uppercase tracking-wider hover:bg-brand-orange hover:text-white transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(244,143,18,0.5)] transform hover:-translate-y-1">
                         Book Assessment
                     </a>

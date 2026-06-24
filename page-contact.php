@@ -104,7 +104,7 @@ get_header();
                             class="text-lg font-medium hover:text-brand-orange transition-colors">contact@karmadocs.com</a>
                     </div>
                 </div>
-                <!-- Item 3 -->
+                <!-- Item 4: Headquarters -->
                 <div class="flex items-start">
                     <div
                         class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 mr-4 backdrop-blur-sm border border-white/10">
@@ -135,7 +135,7 @@ get_header();
                 style="min-height:587px;">
                 <iframe src="https://api.leadconnectorhq.com/widget/form/3wGWnbpRrnVPDlRfcvZq"
                     style="width:100%;height:100%;border:none;border-radius:20px" id="inline-3wGWnbpRrnVPDlRfcvZq"
-                    data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+                    data-layout="{&#39;id&#39;:&#39;INLINE&#39;}" data-trigger-type="alwaysShow" data-trigger-value=""
                     data-activation-type="alwaysActivated" data-activation-value=""
                     data-deactivation-type="neverDeactivate" data-deactivation-value=""
                     data-form-name="KarmaDocs Website Form" data-height="587"
@@ -154,22 +154,22 @@ get_header();
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100">
                         <h4 class="font-bold text-gray-900 mb-2">Palm Springs</h4>
-                        <p class="text-sm text-gray-500 leading-snug"> 560 S Paseo Dorotea Ste 4B, Palm Springs,<br> CA
-                            92264, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug"> 560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA
+                            92264</p>
                     </div>
                     <!-- Loc 2 -->
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100">
                         <h4 class="font-bold text-gray-900 mb-2">Rancho Mirage</h4>
-                        <p class="text-sm text-gray-500 leading-snug">35400 Bob Hope Dr Suite 206-A, Rancho Mirage,
-                            <br>CA 92270, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug">35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA
+                            92270</p>
                     </div>
                     <!-- Loc 3 -->
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100 sm:col-span-2">
                         <h4 class="font-bold text-gray-900 mb-2">Twentynine Palms</h4>
-                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy Ste 107-B, Twentynine
-                            Palms,<br> CA 92277, United States</p>
+                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy. Suite 107 - A Twentynine
+                            Palms, CA 92277</p>
                     </div>
                 </div>
             </div>

@@ -209,7 +209,7 @@ Meta Description: Searching for a top-rated psychiatrist near San Bernardino, CA
                                 style="background: var(--brand-orange); color: white; font-size: 11px; padding: 2px 10px; border-radius: 10px; font-weight: 800; text-transform: uppercase; white-space: nowrap;">Closest
                                 Office</span></h4>
                         <p style="color: #6B7280; font-size: 15px; line-height: 1.6; max-width: 280px; margin: 0 auto;">
-                            560 S Paseo Dorotea Ste 4B, Palm Springs, CA 92264, United States</p>
+                            560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA 92264</p>
                     </div>
                 </div>
                 <div
@@ -221,7 +221,7 @@ Meta Description: Searching for a top-rated psychiatrist near San Bernardino, CA
                         <h4 style="font-weight: 800; color: var(--brand-dark); font-size: 20px; margin-bottom: 8px;">
                             Rancho Mirage</h4>
                         <p style="color: #6B7280; font-size: 15px; line-height: 1.6; max-width: 280px; margin: 0 auto;">
-                            35400 Bob Hope Dr Suite 206-A, Rancho Mirage, CA 92270, United States</p>
+                            35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA 92270</p>
                     </div>
                 </div>
                 <div
@@ -233,7 +233,7 @@ Meta Description: Searching for a top-rated psychiatrist near San Bernardino, CA
                         <h4 style="font-weight: 800; color: var(--brand-dark); font-size: 20px; margin-bottom: 8px;">
                             Twentynine Palms</h4>
                         <p style="color: #6B7280; font-size: 15px; line-height: 1.6; max-width: 280px; margin: 0 auto;">
-                            72724 29 Palms Hwy Ste 107-B, Twentynine Palms, CA 92277, United States</p>
+                            72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA 92277</p>
                     </div>
                 </div>
             </div>

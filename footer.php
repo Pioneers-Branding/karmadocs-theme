@@ -15,7 +15,7 @@
     </div>
 
     <!-- Main Footer Content -->
-    <div class="relative z-10 pt-16 pb-8" id="#footer-location">
+    <div class="relative z-10 pt-16 pb-8" id="footer-location">
         <div class="container mx-auto px-4">
 
             <!-- Local SEO / Service Area Section -->
@@ -37,7 +37,7 @@
                                 Palm Springs
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                560 S Paseo Dorotea Ste 4B, Palm Springs, CA 92264, United States
+                                560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA 92264
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -59,7 +59,7 @@
                                 Rancho Mirage
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                35400 Bob Hope Dr Suite 206-A, Rancho Mirage, CA 92270, United States
+                                35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA 92270
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -81,7 +81,7 @@
                                 Twentynine Palms
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                72724 29 Palms Hwy Ste 107-B, Twentynine Palms, CA 92277, United States
+                                72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA 92277
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -147,7 +147,7 @@
                                 class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition-colors flex-shrink-0">
                                 <i class="fas fa-phone-alt"></i>
                             </div>
-                            <span>+1 (951) 297 8375</span>
+                            <span>+1 (951) 297-8375</span>
                         </a>
 
                         <!-- Fax -->
@@ -156,7 +156,7 @@
                                 class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-brand-orange flex-shrink-0">
                                 <i class="fas fa-fax"></i>
                             </div>
-                            <span>Fax: +1 (951) 602 8264</span>
+                            <span>Fax: +1 (951) 602-8264</span>
                         </div>
 
                         <!-- Email -->
@@ -184,14 +184,12 @@
                         <li><a href="<?php echo home_url('/about'); ?>"
                                 class="text-gray-400 text-sm hover:text-white transition-colors">About
                                 Us</a></li>
-                        <li><a href="<?php echo home_url('/about'); ?>"
+                        <li><a href="<?php echo home_url('/about/#team'); ?>"
                                 class="text-gray-400 text-sm hover:text-white transition-colors">Our
                                 Team</a></li>
-                        <li><a href="#process" class="text-gray-400 text-sm hover:text-white transition-colors">TMS
+                        <li><a href="<?php echo home_url('/tms'); ?>"
+                                class="text-gray-400 text-sm hover:text-white transition-colors">TMS
                                 Therapy</a></li>
-                        <li><a href="#conditions"
-                                class="text-gray-400 text-sm hover:text-white transition-colors">Patient
-                                Resources</a></li>
                     </ul>
                 </div>
 
@@ -240,8 +238,7 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Palm Springs</p>
-                                <p class="text-gray-400 text-xs"> 560 S Paseo Dorotea Ste 4B, Palm Springs,<br> CA
-                                    92264, United States
+                                <p class="text-gray-400 text-xs">560 S. Paseo Dorotea, Suite 4-A Palm Springs, CA 92264
                                 </p>
                             </div>
                         </div>
@@ -254,8 +251,7 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Rancho Mirage</p>
-                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr Suite 206-A, Rancho Mirage,<br> CA
-                                    92270, United States
+                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr. Suite 206-A Rancho Mirage, CA 92270
                                 </p>
                             </div>
                         </div>
@@ -268,8 +264,8 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Twentynine Palms</p>
-                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy Ste 107-B, Twentynine Palms,<br> CA
-                                    92277, United States
+                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA
+                                    92277
                                 </p>
                             </div>
                         </div>
@@ -295,14 +291,15 @@
             <!-- Bottom Bar -->
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
                 <p class="text-gray-500 text-xs">
-                    &copy; 2024 Karma Doctors & Associates. All rights reserved.
+                    &copy; <?php echo date('Y'); ?> Karma Doctors & Associates. All rights reserved.
                 </p>
                 <div class="flex items-center gap-6 text-xs">
                     <a href="<?php echo home_url('/privacy-policy'); ?>"
                         class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
                     <a href="<?php echo home_url('/terms-conditions'); ?>"
                         class="text-gray-500 hover:text-white transition-colors">Terms & Conditions</a>
-                    <a href="#" class="text-gray-500 hover:text-white transition-colors">HIPAA Compliance</a>
+                    <a href="<?php echo home_url('/privacy-policy'); ?>#hipaa-notice"
+                        class="text-gray-500 hover:text-white transition-colors">HIPAA Compliance</a>
                 </div>
             </div>
         </div>

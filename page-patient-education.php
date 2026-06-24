@@ -155,7 +155,7 @@ get_header();
                         <li><a href="https://www.aa.org/" target="_blank"
                                 class="hover:text-brand-orange transition-colors">Alcoholics Anonymous</a></li>
                         <li><a href="https://netaddiction.com/" target="_blank"
-                                class="hover:text-brand-orange transition-colors">Center for On-Line Addiction</a></li>
+                                class="hover:text-brand-orange transition-colors">Center for Online Addiction</a></li>
                         <li><a href="https://www.well.com/user/woa/" target="_blank"
                                 class="hover:text-brand-orange transition-colors">Web of Addictions</a></li>
                         <li><a href="https://www.graniterecoverycenters.com/resources/ocd-and-addiction/"

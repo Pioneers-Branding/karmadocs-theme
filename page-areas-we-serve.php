@@ -83,7 +83,7 @@ get_header();
 <section class="hero">
     <div style="position: absolute; top:0; left:0; right:0; bottom:0; background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 30px 30px; opacity: 0.3;"></div>
     <h1>Areas We Serve</h1>
-    <p>Providing expert psychiatric clinical excellence to over 490 communities across California.</p>
+    <p>Providing expert psychiatric clinical excellence to over 495 communities across California.</p>
 </section>
 
 <div class="container">

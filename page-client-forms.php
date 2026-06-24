@@ -44,7 +44,7 @@ get_header();
                     </p>
                     <div class="flex items-center gap-4 text-sm text-purple-200">
                         <i class="fas fa-lock"></i>
-                        <span>Secure & Confidential Hipaa Compliant Forms</span>
+                        <span>Secure & Confidential HIPAA Compliant Forms</span>
                     </div>
                 </div>
 
