@@ -15,7 +15,7 @@
     </div>
 
     <!-- Main Footer Content -->
-    <div class="relative z-10 pt-16 pb-8">
+    <div class="relative z-10 pt-16 pb-8" id="#footer-location">
         <div class="container mx-auto px-4">
 
             <!-- Local SEO / Service Area Section -->
@@ -37,7 +37,7 @@
                                 Palm Springs
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                560 S Paseo Dorotea, Suite 4-A, Palm Springs, CA 92264
+                                560 S Paseo Dorotea Ste 4B, Palm Springs, CA 92264, United States
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -59,7 +59,7 @@
                                 Rancho Mirage
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                35400 Bob Hope Dr. Suite 206-A, Rancho Mirage, CA 92270
+                                35400 Bob Hope Dr Suite 206-A, Rancho Mirage, CA 92270, United States
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -81,7 +81,7 @@
                                 Twentynine Palms
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                72724 29 Palms Hwy. Suite 107-A, Twentynine Palms, CA 92277
+                                72724 29 Palms Hwy Ste 107-B, Twentynine Palms, CA 92277, United States
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -240,8 +240,8 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Palm Springs</p>
-                                <p class="text-gray-400 text-xs">560 S Paseo Dorotea, Suite 4-A<br>Palm Springs, CA
-                                    92264
+                                <p class="text-gray-400 text-xs"> 560 S Paseo Dorotea Ste 4B, Palm Springs,<br> CA
+                                    92264, United States
                                 </p>
                             </div>
                         </div>
@@ -254,8 +254,8 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Rancho Mirage</p>
-                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr. Suite 206-A<br>Rancho Mirage, CA
-                                    92270
+                                <p class="text-gray-400 text-xs">35400 Bob Hope Dr Suite 206-A, Rancho Mirage,<br> CA
+                                    92270, United States
                                 </p>
                             </div>
                         </div>
@@ -268,8 +268,8 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Twentynine Palms</p>
-                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy. Suite 107-A<br>Twentynine Palms,
-                                    CA 92277
+                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy Ste 107-B, Twentynine Palms,<br> CA
+                                    92277, United States
                                 </p>
                             </div>
                         </div>
