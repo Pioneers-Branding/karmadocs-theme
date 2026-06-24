@@ -104,7 +104,7 @@ get_header();
                             class="text-lg font-medium hover:text-brand-orange transition-colors">contact@karmadocs.com</a>
                     </div>
                 </div>
-                <!-- Item 3 -->
+                <!-- Item 4: Headquarters -->
                 <div class="flex items-start">
                     <div
                         class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 mr-4 backdrop-blur-sm border border-white/10">
