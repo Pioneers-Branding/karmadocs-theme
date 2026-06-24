@@ -559,7 +559,7 @@ get_header();
                 <!-- Bio -->
                 <div class="space-y-4 text-gray-600 leading-relaxed">
                     <p>
-                        With over two decades of clinical experience, Dr. Sunder stands at the forefront of modern
+                        With over three decades of clinical experience, Dr. Sunder stands at the forefront of modern
                         mental healthcare. He is a pioneer in <strong class="text-gray-800">Integrated
                             Psychiatry</strong>, uniquely combining traditional medical excellence with mindfulness
                         protocols, nutritional psychiatry, and advanced non-invasive technologies like TMS.
