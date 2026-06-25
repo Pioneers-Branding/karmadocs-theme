@@ -125,7 +125,7 @@ get_header();
     <div class="grid md:grid-cols-2">
         <!-- Image Side -->
         <div class="max-h-[500px] md:h-auto relative overflow-hidden group">
-            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537415/-7333_i1ejb8.png" alt="Good Karma"
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/team/team.png" alt="Good Karma"
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
             <div class="absolute inset-0 bg-brand-orange/10 group-hover:bg-transparent transition-colors duration-500">
             </div>
