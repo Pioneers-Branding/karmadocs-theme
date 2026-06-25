@@ -1060,11 +1060,22 @@ get_header();
 <!-- Testimonial Section -->
 <section class="section bg-white">
     <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Real Patient Reviews</h2>
-            <p class="section-description">
-                Watch real testimonials from patients who found relief with our TMS therapy in California.
-            </p>
+        <!-- Section Header -->
+        <div class="text-center mb-8">
+
+            <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-800">Real Patient Reviews</h2>
+            <!-- Decorative Divider -->
+            <div class="w-full max-w-lg mx-auto mt-2 mb-4 flex justify-center opacity-80">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" class="w-64 h-5">
+                    <path class="divider-path divider-left-1" d="M450 65H130l-10-10h320l10 10z" fill="#603177" />
+                    <path class="divider-path divider-right-1" d="M870 65H550l10-10h320l-10 10z" fill="#603177" />
+                    <path class="divider-path divider-diamond" d="M500 15l35 35-35 35-35-35z" fill="#603177" />
+                    <path class="divider-path divider-left-2" d="M440 45H70l10-10h370l-10 10z" fill="#603177" />
+                    <path class="divider-path divider-right-2" d="M930 45H560l-10-10h370l10 10z" fill="#603177" />
+                </svg>
+            </div>
+            <p class="text-gray-600 max-w-xl mx-auto text-sm">Hear directly from patients about their journey with our
+                TMS therapy.</p>
         </div>
 
         <div class="review-carousel-shell">
