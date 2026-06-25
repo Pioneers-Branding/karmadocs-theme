@@ -808,109 +808,58 @@ get_header();
     </div>
 </section>
 
-<!-- Video Testimonials Slider -->
-<section class="py-10 relative overflow-hidden bg-gradient-to-br from-gray-50 via-white to-purple-50/30">
-    <!-- Background Accents -->
-    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-purple/5 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-0 left-0 w-96 h-96 bg-brand-orange/5 rounded-full blur-3xl"></div>
 
-    <div class="container mx-auto px-4 relative z-10">
-        <!-- Section Header -->
-        <div class="text-center mb-10">
-            <span class="inline-block text-brand-orange font-semibold uppercase tracking-widest text-xs mb-2">Patient
-                Stories</span>
-            <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-800 mb-3">Watch Their Journey</h2>
-            <p class="text-gray-600 max-w-xl mx-auto text-sm">
-                Real patients share their transformative experiences with TMS therapy and our compassionate care.
+<!-- Testimonial Section -->
+<section class="section bg-white">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Real Patient Reviews</h2>
+            <p class="section-description">
+                Watch real testimonials from patients who found relief with our TMS therapy in California.
             </p>
         </div>
 
-        <!-- Video Container -->
-        <div class="relative">
-            <!-- Grid for desktop / Flex slider for mobile -->
-            <div class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible pb-8 md:pb-0 scroll-smooth snap-x snap-mandatory px-0 md:px-0"
-                id="video-slider"
-                style="scrollbar-width: thin; scrollbar-color: rgba(96,49,119,0.5) rgba(255,255,255,0.05);">
-
-                <!-- Video 1: CC -->
-                <div class="flex-shrink-0 w-[85vw] md:w-auto snap-center group">
-                    <div
-                        class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-black transform transition-transform duration-300 hover:-translate-y-2 aspect-video">
-                        <video controls preload="metadata" class="w-full h-full object-cover"
-                            poster="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/CC-poster.jpg">
-                            <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/CC.mp4"
-                                type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="mt-5 text-center">
-                        <div
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-brand-purple/10 text-brand-purple mb-2 transition-transform duration-300 group-hover:scale-110">
-                            <i class="fas fa-quote-left"></i>
+        <div class="review-carousel-shell">
+            <div class="review-carousel-viewport" id="review-carousel-viewport">
+                <div class="review-carousel-track">
+                    <div class="review-slide">
+                        <div class="review-video-card">
+                            <div class="review-video-frame">
+                                <iframe loading="lazy" title="Patient review video 1"
+                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c746" referrerpolicy="origin"
+                                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                            </div>
                         </div>
-                        <h4 class="font-bold text-gray-800 text-lg">Patient Story: C.C.</h4>
-                        <p class="text-sm text-brand-purple font-medium uppercase tracking-wider">Life-Changing Results
-                        </p>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-video-card">
+                            <div class="review-video-frame">
+                                <iframe loading="lazy" title="Patient review video 2"
+                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c748" referrerpolicy="origin"
+                                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-video-card">
+                            <div class="review-video-frame">
+                                <iframe loading="lazy" title="Patient review video 3"
+                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c740" referrerpolicy="origin"
+                                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-video-card">
+                            <div class="review-video-frame">
+                                <iframe loading="lazy" title="Patient review video 4"
+                                    src="https://play.gumlet.io/embed/6a3bc54181acabfe4b5e3391" referrerpolicy="origin"
+                                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Video 2: TA -->
-                <div class="flex-shrink-0 w-[85vw] md:w-auto snap-center group">
-                    <div
-                        class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-black transform transition-transform duration-300 hover:-translate-y-2 aspect-video">
-                        <video controls preload="metadata" class="w-full h-full object-cover"
-                            poster="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/TA-poster.jpg">
-                            <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/TA.mp4"
-                                type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="mt-5 text-center">
-                        <div
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-brand-orange/10 text-brand-orange mb-2 transition-transform duration-300 group-hover:scale-110">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <h4 class="font-bold text-gray-800 text-lg">Patient Story: T.A.</h4>
-                        <p class="text-sm text-brand-purple font-medium uppercase tracking-wider">Finding Hope</p>
-                    </div>
-                </div>
-
-                <!-- Video 3: JM -->
-                <div class="flex-shrink-0 w-[85vw] md:w-auto snap-center group">
-                    <div
-                        class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-black transform transition-transform duration-300 hover:-translate-y-2 aspect-video">
-                        <video controls preload="metadata" class="w-full h-full object-cover"
-                            poster="<?php echo get_template_directory_uri(); ?>/assets/img/testimonials/JM-poster.jpg">
-                            <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/JM.mp4"
-                                type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="mt-5 text-center">
-                        <div
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-brand-purple/10 text-brand-purple mb-2 transition-transform duration-300 group-hover:scale-110">
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                        <h4 class="font-bold text-gray-800 text-lg">Patient Story: J.M.</h4>
-                        <p class="text-sm text-brand-purple font-medium uppercase tracking-wider">A New Beginning</p>
-                    </div>
-                </div>
-
             </div>
-        </div>
-
-        <!-- Scroll Controls (Mobile Only) -->
-        <div class="flex md:hidden justify-center mt-6 gap-3">
-            <button
-                onclick="document.getElementById('video-slider').scrollBy({left: -window.innerWidth * 0.85, behavior: 'smooth'})"
-                class="w-10 h-10 rounded-full bg-white border border-gray-200 shadow-sm flex items-center justify-center text-gray-500 hover:bg-brand-purple hover:border-brand-purple hover:text-white transition-all">
-                <i class="fas fa-chevron-left text-sm"></i>
-            </button>
-            <button
-                onclick="document.getElementById('video-slider').scrollBy({left: window.innerWidth * 0.85, behavior: 'smooth'})"
-                class="w-10 h-10 rounded-full bg-white border border-gray-200 shadow-sm flex items-center justify-center text-gray-500 hover:bg-brand-purple hover:border-brand-purple hover:text-white transition-all">
-                <i class="fas fa-chevron-right text-sm"></i>
-            </button>
         </div>
     </div>
 </section>
