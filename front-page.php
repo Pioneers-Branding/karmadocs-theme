@@ -1059,7 +1059,7 @@ get_header();
 
 <!-- Testimonial Section -->
 <section class="section bg-white py-10" id="testimonials-videos">
-    <div class="container">
+    <div class="container mx-auto px-4 ">
         <!-- Section Header -->
         <div class="text-center mb-8">
 
