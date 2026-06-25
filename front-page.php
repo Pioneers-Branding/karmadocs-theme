@@ -351,6 +351,16 @@ get_header();
                 <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766231589/download_ijs4qw.svg"
                     alt="Insurance" class="h-full object-contain">
             </div>
+            <div
+                class="h-10 flex items-center justify-center px-4 rounded-full bg-white/90 border border-gray-200 text-xs font-bold uppercase text-gray-600 shadow-sm">
+                + more plans accepted
+            </div>
+        </div>
+        <div class="mt-4">
+            <a href="<?php echo home_url('/insurance'); ?>"
+                class="text-xs text-brand-purple underline hover:text-brand-orange">
+                Find Out If You're Covered
+            </a>
         </div>
     </div>
 </section>
@@ -522,7 +532,6 @@ get_header();
         </div>
     </div>
 </section>
-
 
 <!-- Services / Conditions: Interactive Image Grid -->
 <section class="py-10 relative overflow-hidden" id="conditions"
