@@ -168,7 +168,7 @@ get_header();
                     <div
                         class="bg-gray-100 p-6 rounded-2xl hover:bg-white hover:shadow-md transition-all border border-transparent hover:border-gray-100 sm:col-span-2">
                         <h4 class="font-bold text-gray-900 mb-2">Twentynine Palms</h4>
-                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy. Suite 107 - A Twentynine
+                        <p class="text-sm text-gray-500 leading-snug">72724 29 Palms Hwy. Suite 107-A Twentynine
                             Palms, CA 92277</p>
                     </div>
                 </div>

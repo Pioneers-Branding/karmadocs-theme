@@ -81,7 +81,7 @@
                                 Twentynine Palms
                             </h5>
                             <p class="text-xs text-gray-400 leading-relaxed">
-                                72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA 92277
+                                72724 29 Palms Hwy. Suite 107-A Twentynine Palms, CA 92277
                             </p>
                         </div>
                         <div class="h-48 relative overflow-hidden border-t border-white/10">
@@ -264,7 +264,7 @@
                             </div>
                             <div>
                                 <p class="text-white text-sm font-medium">Twentynine Palms</p>
-                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy. Suite 107 - A Twentynine Palms, CA
+                                <p class="text-gray-400 text-xs">72724 29 Palms Hwy. Suite 107-A Twentynine Palms, CA
                                     92277
                                 </p>
                             </div>

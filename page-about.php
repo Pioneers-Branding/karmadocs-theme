@@ -460,7 +460,7 @@ get_header();
                                 Certified</span>
                             <span
                                 class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Medication
-                                Mgmt</span>
+                                Management</span>
                         </div>
                         <div class="mt-4 hidden" id="bio-giovanni-birrueta">
                             <p>Giovanni Birrueta, PMHNP-BC is a psychiatric mental health nurse practitioner who
