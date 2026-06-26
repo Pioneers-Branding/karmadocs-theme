@@ -1094,7 +1094,7 @@ get_header();
                         <div class="review-video-card">
                             <div class="review-video-frame">
                                 <iframe loading="lazy" title="Patient review video 1"
-                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c746" referrerpolicy="origin"
+                                    src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951726" referrerpolicy="origin"
                                     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                             </div>
                         </div>
@@ -1103,7 +1103,7 @@ get_header();
                         <div class="review-video-card">
                             <div class="review-video-frame">
                                 <iframe loading="lazy" title="Patient review video 2"
-                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c748" referrerpolicy="origin"
+                                    src="https://play.gumlet.io/embed/6a3ccfeb5c2245e4675224c8" referrerpolicy="origin"
                                     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                             </div>
                         </div>
@@ -1112,7 +1112,7 @@ get_header();
                         <div class="review-video-card">
                             <div class="review-video-frame">
                                 <iframe loading="lazy" title="Patient review video 3"
-                                    src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c740" referrerpolicy="origin"
+                                    src="https://play.gumlet.io/embed/6a3ccfeba79fd7da337d904a" referrerpolicy="origin"
                                     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                             </div>
                         </div>
@@ -1121,7 +1121,7 @@ get_header();
                         <div class="review-video-card">
                             <div class="review-video-frame">
                                 <iframe loading="lazy" title="Patient review video 4"
-                                    src="https://play.gumlet.io/embed/6a3bc54181acabfe4b5e3391" referrerpolicy="origin"
+                                    src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951724" referrerpolicy="origin"
                                     allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                             </div>
                         </div>
