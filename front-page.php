@@ -563,7 +563,7 @@ get_header();
                 <a href="<?php echo home_url('depression'); ?>"
                     class="relative group block overflow-hidden rounded-2xl h-64 cursor-pointer" data-aos="fade-up"
                     data-aos-delay="0">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/460c9673-d421-40be-a576-8470fafd54e6.webp"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/aws/460c9673-d421-40be-a576-8470fafd54e6.webp"
                         alt="Depression"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
