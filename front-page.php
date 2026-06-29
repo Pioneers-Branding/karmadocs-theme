@@ -332,23 +332,23 @@ get_header();
         <div
             class="flex flex-wrap md:flex-nowrap justify-center items-center gap-8 md:gap-12 lg:gap-16 hover:opacity-100 transition-all duration-500">
             <!-- <div class="h-12 w-auto flex items-center justify-center">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766231589/logo-bcbssc-mobile-2x_ytdpm3.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/logo-bcbssc-mobile-2x_ytdpm3.png"
                         alt="BlueCross BlueShield" class="h-full object-contain">
                 </div> -->
             <div class="h-10 w-auto flex items-center justify-center">
-                <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766231589/Cigna_Healthcare_Logo_2_yxpvat.webp"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Cigna_Healthcare_Logo_2_yxpvat.webp"
                     alt="Cigna" class="h-full object-contain">
             </div>
             <div class="h-10 w-auto flex items-center justify-center">
-                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1774965674/idbC40zm_a_logos_addxec.png"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/idbC40zm_a_logos_addxec.png"
                     alt="Tricare" class="h-full object-contain">
             </div>
             <div class="h-10 w-auto flex items-center justify-center">
-                <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766231588/Aetna_Logo_ss_Violet_RGB_Coated_vchoob.svg"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Aetna_Logo_ss_Violet_RGB_Coated_vchoob.svg"
                     alt="Aetna" class="h-full object-contain">
             </div>
             <div class="h-10 w-auto flex items-center justify-center">
-                <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766231589/download_ijs4qw.svg"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/download_ijs4qw.svg"
                     alt="Insurance" class="h-full object-contain">
             </div>
             <div
@@ -623,7 +623,7 @@ get_header();
                 <a href="<?php echo home_url('ptsd'); ?>"
                     class="relative group block overflow-hidden rounded-2xl h-64 cursor-pointer" data-aos="fade-up"
                     data-aos-delay="200">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766227258/Gemini_Generated_Image_pl82z1pl82z1pl82_pqce33.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Gemini_Generated_Image_pl82z1pl82z1pl82_pqce33.png"
                         alt="PTSD"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -653,7 +653,7 @@ get_header();
                 <a href="<?php echo home_url('adhd'); ?>"
                     class="relative group block overflow-hidden rounded-2xl h-64 cursor-pointer" data-aos="fade-up"
                     data-aos-delay="300">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766227888/Gemini_Generated_Image_ezawtnezawtnezaw_e5bgqx.webp"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Gemini_Generated_Image_ezawtnezawtnezaw_e5bgqx.webp"
                         alt="ADHD"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -683,7 +683,7 @@ get_header();
                 <a href="<?php echo home_url('bipolar'); ?>"
                     class="relative group block overflow-hidden rounded-2xl h-64 cursor-pointer" data-aos="fade-up"
                     data-aos-delay="400">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766227888/Gemini_Generated_Image_kailvakailvakail_shww2m.webp"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Gemini_Generated_Image_kailvakailvakail_shww2m.webp"
                         alt="Bipolar Disorder"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -713,7 +713,7 @@ get_header();
                 <a href="<?php echo home_url('ocd'); ?>"
                     class="relative group block overflow-hidden rounded-2xl h-64 cursor-pointer" data-aos="fade-up"
                     data-aos-delay="500">
-                    <img src="https://res.cloudinary.com/damfndmrm/image/upload/v1766227888/Gemini_Generated_Image_g8re93g8re93g8re_vgiygt.webp"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Gemini_Generated_Image_g8re93g8re93g8re_vgiygt.webp"
                         alt="OCD"
                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -775,7 +775,7 @@ get_header();
                     </div>
 
                     <!-- Main Image -->
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766063836/4990c7a6-07b7-48c2-9a5f-cd188d2ad944.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/4990c7a6-07b7-48c2-9a5f-cd188d2ad944.png"
                         alt="Dr. Keerthy Sunder"
                         class="rounded-2xl shadow-xl w-full max-w-sm object-cover object-top h-[420px]">
                 </div>

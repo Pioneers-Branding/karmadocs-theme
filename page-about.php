@@ -7,7 +7,7 @@ get_header();
 <section class="relative h-[65vh] min-h-[500px] flex items-center">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png" alt="Hero Background"
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/-7261_itcxch.png" alt="Hero Background"
             class="w-full h-full object-cover">
         <!-- Subtle Overlay -->
         <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-black/20 to-transparent mix-blend-multiply">
@@ -113,7 +113,7 @@ get_header();
 
         <!-- Image Side -->
         <div class="max-h-[500px] md:h-auto relative overflow-hidden group order-1 md:order-2">
-            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766054048/apollo-consultation_1_peyxur_1_fuidsc.png"
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/apollo-consultation_1_peyxur_1_fuidsc.png"
                 alt="Advanced Technology"
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
             <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-colors duration-500">
@@ -125,7 +125,11 @@ get_header();
     <div class="grid md:grid-cols-2">
         <!-- Image Side -->
         <div class="max-h-[500px] md:h-auto relative overflow-hidden group">
+<<<<<<< Updated upstream
             <img src="<?php echo get_template_directory_uri(); ?>/assets/team/team.png" alt="Good Karma"
+=======
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/-7333_i1ejb8.png" alt="Good Karma"
+>>>>>>> Stashed changes
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
             <div class="absolute inset-0 bg-brand-orange/10 group-hover:bg-transparent transition-colors duration-500">
             </div>
@@ -180,14 +184,14 @@ get_header();
                     <span class="text-sm text-gray-500 uppercase tracking-wide">Board Certified</span>
                 </div>
                 <div class="text-center md:text-left hidden lg:block">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Logo-2_bchwgb.webp"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Logo-2_bchwgb.webp"
                         alt="Logo" class="h-12 opacity-50 invert">
                 </div>
             </div>
         </div>
         <!-- Image Side (5/12) -->
         <div class="lg:col-span-6 relative h-[500px] lg:h-auto bg-gray-200">
-            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766063836/4990c7a6-07b7-48c2-9a5f-cd188d2ad944.png"
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/4990c7a6-07b7-48c2-9a5f-cd188d2ad944.png"
                 alt="Dr. Keerthy Sunder" class="absolute inset-0 w-full h-full object-cover object-top">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent lg:hidden"></div>
             <div class="absolute bottom-6 left-6 text-white lg:hidden">

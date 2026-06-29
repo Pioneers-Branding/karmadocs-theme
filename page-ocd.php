@@ -390,7 +390,7 @@ get_header();
                 <div class="group bg-white rounded-[2.5rem] p-2 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 h-full flex flex-col"
                     data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-48 overflow-hidden rounded-[2rem] mb-4">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766054048/apollo-consultation_1_peyxur_1_fuidsc.png" alt="TMS"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/apollo-consultation_1_peyxur_1_fuidsc.png" alt="TMS"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
                         <div

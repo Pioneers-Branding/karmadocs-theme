@@ -16,7 +16,7 @@ get_header();
 <section class="relative pt-32 pb-20 overflow-hidden bg-brand-purple">
     <!-- Background -->
     <div class="absolute inset-0 z-0">
-        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1776172868/85f47624-7140-4d90-bfc8-2869d5d1d4c0.png"
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/85f47624-7140-4d90-bfc8-2869d5d1d4c0.png"
             alt="Banner Background" class="w-full h-full object-cover opacity-40 mix-blend-multiply">
         <div class="absolute inset-0 bg-gradient-to-b from-white/50 to-brand-purpleLight/30"></div>
     </div>

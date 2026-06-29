@@ -87,6 +87,7 @@ get_header();
             <div class="mt-16 text-center">
                 <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-8">We Accept Major Plans</p>
                 <div
+<<<<<<< Updated upstream
                     class="flex flex-wrap justify-center items-center gap-8 md:gap-12 max-w-6xl mx-auto opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/aetna.webp"
                         alt="Aetna" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
@@ -120,6 +121,17 @@ get_header();
                         alt="Desert Oasis Healthcare" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/livewell-logo.png"
                         alt="Live Well" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
+=======
+                    class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Cigna_Healthcare_Logo_2_yxpvat.webp"
+                        alt="Cigna" class="h-10 hover:scale-110 transition-transform">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/United_Healthcare_Logo_Alternative_2_ci9trh.webp"
+                        alt="United Healthcare" class="h-10 hover:scale-110 transition-transform">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Aetna_Logo_ss_Violet_RGB_Coated_vchoob.svg"
+                        alt="Aetna" class="h-10 hover:scale-110 transition-transform">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/download_ijs4qw.svg"
+                        alt="Insurance" class="h-10 hover:scale-110 transition-transform">
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>

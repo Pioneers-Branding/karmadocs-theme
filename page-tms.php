@@ -55,7 +55,7 @@ get_header();
                         <div
                             class="absolute -inset-4 bg-gradient-to-tr from-brand-orange/20 to-brand-purple/20 rounded-full blur-2xl opacity-70">
                         </div>
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766054048/apollo-consultation_1_peyxur_1_fuidsc.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/apollo-consultation_1_peyxur_1_fuidsc.png"
                             alt="Brain Neural Network"
                             class="relative rounded-2xl shadow-2xl border-4 border-white w-full object-cover z-10">
                         <!-- Stat Badge -->
@@ -184,7 +184,7 @@ get_header();
                     </div>
                 </div>
                 <div class="relative h-64 md:h-auto">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742452/IMG_9560_VSCO_2_nkpa9c.jpg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/IMG_9560_VSCO_2_nkpa9c.jpg"
                         alt="Peace of Mind"
                         class="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-overlay">
                     <div class="absolute inset-0 bg-gradient-to-r from-brand-dark to-transparent"></div>

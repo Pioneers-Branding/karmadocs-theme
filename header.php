@@ -17,10 +17,9 @@
  "telephone": "+1-951-297-8375",
  "email": "contact@karmadocs.com",
  "image":
-"https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Karma-Docs-Logo-Horizent
-al_w48ja1.webp",
+"<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Karma-Docs-Logo-Horizental_w48ja1.webp",
  "logo":
-"https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Logo-2_bchwgb.webp",
+"<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Logo-2_bchwgb.webp",
  "priceRange": "$$",
  "description": "Double board-certified psychiatry and FDA-cleared TMS therapy.",
  "medicalSpecialty": [
@@ -60,7 +59,7 @@ al_w48ja1.webp",
  "description": "Double Board-Certified Psychiatrist with 20+ years of
 experience...",
  "image":
-"https://res.cloudinary.com/de4kw1t2i/image/upload/v1766063836/4990c7a6-07b7-48c2-9a5fcd188d2ad944.png",
+"<?php echo get_template_directory_uri(); ?>/assets/cloudinary/4990c7a6-07b7-48c2-9a5f-cd188d2ad944.png",
  "medicalSpecialty": [
  { "@type": "MedicalSpecialty", "name": "Psychiatry" },
  { "@type": "MedicalSpecialty", "name": "Addiction Medicine" }
@@ -166,7 +165,7 @@ pulses.",
             <!-- Logo -->
             <a href="<?php echo home_url('/'); ?>"
                 class="text-2xl font-bold font-sans tracking-tight flex items-center transition-all duration-500">
-                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Karma-Docs-Logo-Horizental_w48ja1.webp"
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Karma-Docs-Logo-Horizental_w48ja1.webp"
                     alt="KDA logo" class="h-20 transition-all duration-500">
             </a>
 

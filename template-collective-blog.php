@@ -19,7 +19,7 @@ $blog_query = new WP_Query($args);
 ?>
 
 <!-- Blog Hero -->
-<section class="relative h-[65vh] min-h-[500px] flex items-center bg-fixed bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png');">
+<section class="relative h-[65vh] min-h-[500px] flex items-center bg-fixed bg-cover bg-center" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/cloudinary/-7261_itcxch.png');">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent mix-blend-multiply"></div>
 

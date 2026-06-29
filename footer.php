@@ -6,7 +6,7 @@
     <!-- Subtle Logo Watermark -->
     <div
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] opacity-[0.06] pointer-events-none">
-        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Logo-2_bchwgb.webp" alt=""
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Logo-2_bchwgb.webp" alt=""
             class="w-full h-full object-contain">
     </div>
 
@@ -101,7 +101,7 @@
                 <!-- Brand Column -->
                 <div class="md:col-span-4 lg:col-span-4">
                     <a href="<?php echo home_url('/'); ?>" class="inline-block mb-6">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766060387/Logo-2_bchwgb.webp"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/Logo-2_bchwgb.webp"
                             alt="Karma Doctors" class="h-16">
                     </a>
                     <p class="text-gray-400 text-sm leading-relaxed mb-6 max-w-xs">
