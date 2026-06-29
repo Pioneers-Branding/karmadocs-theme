@@ -7,7 +7,7 @@ get_header();
 <section class="relative h-[65vh] min-h-[500px] flex items-center">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/-7261_itcxch.png" alt="Hero Background"
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/team.png" alt="Hero Background"
             class="w-full h-full object-cover">
         <!-- Subtle Overlay -->
         <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-black/20 to-transparent mix-blend-multiply">
