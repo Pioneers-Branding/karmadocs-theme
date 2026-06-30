@@ -104,8 +104,8 @@ get_header();
                 <span
                     class="px-4 py-2 bg-white/10 rounded-lg text-sm font-semibold backdrop-blur-sm border border-white/20">TMS
                     Therapy</span>
-                <span
-                    class="px-4 py-2 bg-white/10 rounded-lg text-sm font-semibold backdrop-blur-sm border border-white/20">Neurofeedback</span>
+                <!-- <span
+                    class="px-4 py-2 bg-white/10 rounded-lg text-sm font-semibold backdrop-blur-sm border border-white/20">Neurofeedback</span> -->
                 <span
                     class="px-4 py-2 bg-white/10 rounded-lg text-sm font-semibold backdrop-blur-sm border border-white/20">NuCalm</span>
             </div>
@@ -333,9 +333,47 @@ get_header();
                     </div>
                 </div>
 
-                <!-- Bethany Minick -->
+                <!-- Dr. Benjamin Vanderschelden -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
                     data-category="provider" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/dr-ben.jpg"
+                            alt="Dr. Benjamin Vanderschelden"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Benjamin Vanderschelden, M.D.</h4>
+                            <p class="text-brand-orange text-sm font-semibold">Psychiatrist</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Dr. Vanderschelden is a board-certified psychiatrist with extensive experience across outpatient, inpatient, and emergency settings. He graduated top of his class from UC Irvine and completed his residency at UPMC's Western Psychiatric Hospital, where he specialized in neuromodulation and interventional psychiatry.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Board
+                                Certified</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Interventional Psychiatry</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-benjamin-vanderschelden">
+                            <p>Dr. Benjamin Vanderschelden is a board-certified psychiatrist with extensive experience delivering mental health care across diverse clinical environments, including outpatient clinics, inpatient units, emergency departments, high-security state prisons, and county jail systems. He earned his medical degree as the top graduating student of his class from the University of California, Irvine, where he was inducted into the Alpha Omega Alpha Medical Honor Society. He completed his psychiatry residency at the University of Pittsburgh Medical Center’s Western Psychiatric Hospital, during which he founded and led the Interventional Psychiatry Concentration program, specializing in treatments such as transcranial magnetic stimulation (TMS), electroconvulsive therapy (ECT), intranasal esketamine, and intravenous ketamine therapy.</p>
+                            <p>Dr. Vanderschelden’s research spans neuromodulation, late-life and adolescent depression, stroke recovery, and global health, with presentations at multiple national conferences. He has been recognized with awards from the Clinical TMS Society and the International Society of ECT and Neurostimulation (ISEN) for his contributions to the field of interventional psychiatry.</p>
+                            <p>His clinical practice emphasizes evidence-based, compassionate, and collaborative care, with a strong focus on clear communication and making mental health information accessible and practical for diverse audiences.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Dr. Benjamin Vanderschelden" data-role="Psychiatrist" data-target="bio-benjamin-vanderschelden">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bethany Minick -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/bethany-minick.jpeg"
                             alt="Bethany Minick, LMFT"
@@ -382,7 +420,7 @@ get_header();
 
                 <!-- Raymond Chung -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/raymond-chung.jpg"
                             alt="Raymond Chung, LMFT"
@@ -435,7 +473,7 @@ get_header();
                 </div>
 
                 <!-- Giovanni Birrueta -->
-                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                <!-- <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
                     data-category="provider" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/giovanni-birrueta.jpg"
@@ -479,7 +517,7 @@ get_header();
                             Read more <i class="fas fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Emily Luu -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
@@ -491,7 +529,7 @@ get_header();
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
                         </div>
                         <div class="absolute bottom-4 left-5 right-5">
-                            <h4 class="text-white font-bold text-lg">Emily Luu Davari</h4>
+                            <h4 class="text-white font-bold text-lg">Emily Davari</h4>
                             <p class="text-brand-orange text-sm font-semibold">PA-C</p>
                         </div>
                     </div>
@@ -537,9 +575,46 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Nicole Wright -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Nicole-Wright.png"
+                            alt="Nicole Wright, PA-C"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Nicole Wright</h4>
+                            <p class="text-brand-orange text-sm font-semibold">PA-C</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Nicole is a physician assistant with seven years of experience providing compassionate, patient-centered care. She specializes in telepsychiatry and medication management for adults experiencing anxiety, depression, ADHD, mood disorders, and trauma-related challenges.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Physician Assistant</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Telepsychiatry</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-nicole-wright">
+                            <p>Nicole Wright, PA-C, is a physician assistant with seven years of experience providing compassionate, patient-centered care. She works with adults experiencing anxiety, depression, ADHD, trauma-related disorders, mood disorders, and other stress-related challenges.</p>
+                            <p>Nicole values creating a supportive, nonjudgmental environment where patients feel comfortable being themselves and actively involved in their treatment. Her approach combines evidence-based medication management with individualized, collaborative care focused on helping patients feel more balanced, functional, and engaged in daily life.</p>
+                            <p>Nicole earned her Bachelor’s Degree in Psychology from the University of Miami (FL) and completed the Master of Science: Physician Assistant program at Southern California University of Health Sciences. Outside of work, Nicole enjoys traveling, reading, and baking, and appreciates the importance of maintaining meaningful balance outside of everyday responsibilities. Through telepsychiatry, she strives to provide approachable care grounded in empathy, trust, and practical support.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Nicole Wright" data-role="PA-C" data-target="bio-nicole-wright">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Rachel Parker -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="admin" data-aos="fade-up" data-aos-delay="200">
+                    data-category="admin" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/rachel-parker.jpg"
                             alt="Rachel Parker, PA-C"

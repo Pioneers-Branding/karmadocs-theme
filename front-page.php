@@ -422,7 +422,7 @@ get_header();
                         <div class="ml-6">
                             <h3 class="text-xl font-semibold text-white mb-2">Cutting-Edge Tech</h3>
                             <p class="text-gray-200 text-sm leading-relaxed">
-                                Utilizing the latest FDA-approved TMS technology for non-invasive, highly effective
+                                Utilizing the latest FDA-cleared TMS technology for non-invasive, highly effective
                                 treatment of depression.
                             </p>
                         </div>
@@ -579,8 +579,7 @@ get_header();
                         </span>
                     </div>
                 </a>
-                <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Experience cutting-edge depression treatment
-                    in Palm Springs. Our clinic offers FDA-cleared TMS therapy and comprehensive Board-Certified
+                <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Experience cutting-edge depression treatment. Our clinic offers FDA-cleared TMS therapy and comprehensive Board-Certified
                     Psychiatric Evaluations to address treatment-resistant depression. We focus on evidence-based
                     medicine and APA-Aligned Treatment Plans to help you achieve lasting relief and reclaim your joy.
                     Every patient benefits from MD-Overseen Wellness Tracking, ensuring that your customized care
@@ -609,8 +608,7 @@ get_header();
                         </span>
                     </div>
                 </a>
-                <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Specializing in integrative anxiety treatment
-                    in Palm Springs, we combine traditional psychiatry with advanced neurofeedback and FDA-Cleared
+                <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Specializing in integrative anxiety treatment, we combine traditional psychiatry with advanced FDA-Cleared
                     Protocols to help you regain calm and focus. Our tailored approach aims for sustainable mental
                     wellness through detailed MD-Overseen Wellness Tracking and thorough Board-Certified Psychiatric
                     Evaluations. We carefully design APA-Aligned Treatment Plans tailored to your unique challenges,
@@ -640,7 +638,7 @@ get_header();
                     </div>
                 </a>
                 <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Providing compassionate, trauma-informed PTSD
-                    treatment options in Palm Springs, our expert team utilizes evidence-based therapies, cutting-edge
+                    treatment options, our expert team utilizes evidence-based therapies, cutting-edge
                     FDA-Cleared Protocols, and customized medication management to support your healing journey. All new
                     patients receive comprehensive Board-Certified Psychiatric Evaluations and carefully tailored
                     APA-Aligned Treatment Plans. Let us guide you towards lasting recovery from traumatic stress with
@@ -670,7 +668,7 @@ get_header();
                     </div>
                 </a>
                 <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Through comprehensive ADHD diagnosis and
-                    Board-Certified Psychiatric Evaluations in Palm Springs, our multidisciplinary clinic helps enhance
+                    Board-Certified Psychiatric Evaluations, our multidisciplinary clinic helps enhance
                     focus and build resilience. We employ proven behavioral techniques, advanced FDA-Cleared Protocols,
                     and meticulous medication management within highly structured, APA-Aligned Treatment Plans. Our
                     integrated approach ensures steady academic or professional performance enhancements, constantly
@@ -700,7 +698,7 @@ get_header();
                     </div>
                 </a>
                 <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Find true mood stability with specialized
-                    bipolar disorder treatment in Palm Springs. Our dedicated providers perform extensive
+                    bipolar disorder treatment. Our dedicated providers perform extensive
                     Board-Certified Psychiatric Evaluations and outline customized APA-Aligned Treatment Plans to help
                     you lead a balanced, fulfilling life. We precisely organize advanced FDA-Cleared Protocols and
                     attentive medication management to overcome the complexities of bipolar disorder, fully supported by
@@ -730,7 +728,7 @@ get_header();
                     </div>
                 </a>
                 <p class="text-sm text-gray-600 mt-4 px-2 leading-relaxed">Overcome intrusive thoughts with expert OCD
-                    treatment customized for Palm Springs residents through meticulous Board-Certified Psychiatric
+                    treatment customized for residents through meticulous Board-Certified Psychiatric
                     Evaluations. We deploy clinically proven interventions, FDA-Cleared Protocols, and personalized
                     APA-Aligned Treatment Plans to effectively reduce obsessive-compulsive behaviors and restore your
                     everyday peace of mind. Continuously enhanced by comprehensive MD-Overseen Wellness Tracking, our
@@ -1200,7 +1198,7 @@ get_header();
                 </button>
                 <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out bg-gray-50/50">
                     <div class="p-5 pt-0 text-gray-600 leading-relaxed text-sm">
-                        A psychiatrist diagnosis is based on a clinical interview, medical history, and symptom
+                        A psychiatric diagnosis is based on a clinical interview, medical history, and symptom
                         evaluation. The goal is to understand patterns, severity, and contributing factors before
                         determining next steps.
                     </div>
