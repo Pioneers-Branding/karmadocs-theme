@@ -940,8 +940,7 @@ get_header();
 
                 <!-- Content -->
                 <p class="text-gray-600 mb-6 leading-relaxed text-sm">
-                    "I had lost all hope after trying countless medications. The TMS treatment at Karma Doctors
-                    changed everything. For the first time in years, I feel like myself again."
+                    "I am a 69 year old retired RN who has been under a psychiatrist care for 39 years NO BREAKS FROM MEDICATION. Karma has been so helpful these last couple years. The best I’ve been with is my Dr Nicole Wright. Omg, she is so attentive, professional and helpful I don’t know what I’ll do if we’re separated. I enjoy excellence. All the office ladies are always helping me with something. I just can’t say enough. Great place to deal with, and I’m a huge pain at times. Peace"
                 </p>
 
                 <!-- Author -->
@@ -949,11 +948,11 @@ get_header();
                     <div class="flex items-center">
                         <div
                             class="w-11 h-11 bg-gradient-to-br from-brand-purple/20 to-brand-orange/20 rounded-full flex items-center justify-center font-bold text-brand-purple text-sm">
-                            JD
+                            C
                         </div>
                         <div class="ml-3">
-                            <h4 class="font-bold text-gray-900 text-sm">John D.</h4>
-                            <p class="text-gray-500 text-xs">Depression Treatment</p>
+                            <h4 class="font-bold text-gray-900 text-sm">Christina</h4>
+                            <!-- <p class="text-gray-500 text-xs">4 reviews &bull; 5 months ago</p> -->
                         </div>
                     </div>
                     <div class="text-brand-orange text-xs flex gap-0.5">
