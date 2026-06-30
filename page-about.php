@@ -158,7 +158,7 @@ get_header();
 
             <div class="space-y-6 text-base text-gray-600 leading-relaxed font-light">
                 <p>
-                    With over two decades of clinical experience, Dr. Sunder represents the convergence of modern
+                    With over three decades of clinical experience, Dr. Sunder represents the convergence of modern
                     science and compassionate care. As a Double Board-Certified Psychiatrist, he saw the limitations
                     of traditional "medication-only" approaches and sought a better way.
                 </p>
@@ -757,49 +757,9 @@ get_header();
                     </div>
                 </div>
 
-                <!-- Tracy Mason -->
-                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
-                    <div class="relative h-80 overflow-hidden">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Tracy-Mason.jpeg"
-                            alt="Tracy Mason, PMHNP-BC"
-                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
-                        </div>
-                        <div class="absolute bottom-4 left-5 right-5">
-                            <h4 class="text-white font-bold text-lg">Tracy Mason</h4>
-                            <p class="text-brand-orange text-sm font-semibold">PMHNP-BC</p>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
-                            Tracy is a board-certified Psychiatric Mental Health Nurse Practitioner with over 15 years of psychiatric experience across inpatient, outpatient, and community settings. She completed her MSN at Azusa Pacific University and delivers holistic, patient-centered care to adolescents, adults, and geriatric populations.
-                        </p>
-                        <div class="mt-4 flex flex-wrap gap-2">
-                            <span
-                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Board Certified</span>
-                            <span
-                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Nurse Practitioner</span>
-                        </div>
-                        <div class="mt-4 hidden" id="bio-tracy-mason">
-                            <p>Tracy Mason began her career in psychiatry over 15 years ago, working with children, adolescents, and adults experiencing mental illness across a variety of settings, including inpatient hospitals, outpatient clinics, group homes, and community-based programs. These early experiences laid the foundation for her passion for mental health care and guided her path toward becoming a registered nurse and ultimately a Psychiatric Mental Health Nurse Practitioner.</p>
-                            <p>After earning her Bachelor of Science in Nursing, Tracy worked as a Registered Nurse in an intensive care unit, where she witnessed firsthand the critical gap between medical and psychiatric care. This experience deepened her understanding of the often-overlooked connection between mind and body and inspired her to advance her education.</p>
-                            <p>Tracy earned her Master of Science in Nursing from Azusa Pacific University and is board certified through the American Nurses Credentialing Center as a Psychiatric Mental Health Nurse Practitioner (PMHNP-BC). In his practice, he provides holistic, patient-centered care to adolescents, adults, and geriatric populations. Her clinical focus includes the treatment of depression, anxiety disorders, mood disorders, psychotic disorders, post-traumatic stress disorder, and attention disorders.</p>
-                            <p>Committed to delivering high-quality care, Tracy stays current with evidence-based practices and emerging treatments in mental health. She is also a passionate advocate for the nursing profession and believes strongly in the vital role nurses play in shaping the future of healthcare.</p>
-                            <p>Tracy’s approach to care emphasizes collaboration, education, and empowerment. She strives to create individualized treatment plans that actively involve clients in their care, foster interprofessional collaboration, and promote healing in a supportive, stigma-free environment.</p>
-                            <p>“I believe in creating individualized plans of care that value client involvement, interprofessional collaboration, and evidence-based practice. My goal is for my clients to feel empowered to manage their illness through supportive education in a stigma-free environment.”</p>
-                        </div>
-                        <button type="button"
-                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
-                            data-name="Tracy Mason" data-role="PMHNP-BC" data-target="bio-tracy-mason">
-                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
-                        </button>
-                    </div>
-                </div>
-
                 <!-- Rachel Parker -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="admin" data-aos="fade-up" data-aos-delay="200">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/rachel-parker.jpg"
                             alt="Rachel Parker, PA-C"
@@ -839,6 +799,46 @@ get_header();
                         <button type="button"
                             class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
                             data-name="Rachel Parker" data-role="PA-C" data-target="bio-rachel-parker">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tracy Mason -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Tracy-Mason.jpeg"
+                            alt="Tracy Mason, PMHNP-BC"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Tracy Mason</h4>
+                            <p class="text-brand-orange text-sm font-semibold">PMHNP-BC</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Tracy is a board-certified Psychiatric Mental Health Nurse Practitioner with over 15 years of psychiatric experience across inpatient, outpatient, and community settings. She completed her MSN at Azusa Pacific University and delivers holistic, patient-centered care to adolescents, adults, and geriatric populations.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Board Certified</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Nurse Practitioner</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-tracy-mason">
+                            <p>Tracy Mason began her career in psychiatry over 15 years ago, working with children, adolescents, and adults experiencing mental illness across a variety of settings, including inpatient hospitals, outpatient clinics, group homes, and community-based programs. These early experiences laid the foundation for her passion for mental health care and guided her path toward becoming a registered nurse and ultimately a Psychiatric Mental Health Nurse Practitioner.</p>
+                            <p>After earning her Bachelor of Science in Nursing, Tracy worked as a Registered Nurse in an intensive care unit, where she witnessed firsthand the critical gap between medical and psychiatric care. This experience deepened her understanding of the often-overlooked connection between mind and body and inspired her to advance her education.</p>
+                            <p>Tracy earned her Master of Science in Nursing from Azusa Pacific University and is board certified through the American Nurses Credentialing Center as a Psychiatric Mental Health Nurse Practitioner (PMHNP-BC). In his practice, he provides holistic, patient-centered care to adolescents, adults, and geriatric populations. Her clinical focus includes the treatment of depression, anxiety disorders, mood disorders, psychotic disorders, post-traumatic stress disorder, and attention disorders.</p>
+                            <p>Committed to delivering high-quality care, Tracy stays current with evidence-based practices and emerging treatments in mental health. She is also a passionate advocate for the nursing profession and believes strongly in the vital role nurses play in shaping the future of healthcare.</p>
+                            <p>Tracy’s approach to care emphasizes collaboration, education, and empowerment. She strives to create individualized treatment plans that actively involve clients in their care, foster interprofessional collaboration, and promote healing in a supportive, stigma-free environment.</p>
+                            <p>“I believe in creating individualized plans of care that value client involvement, interprofessional collaboration, and evidence-based practice. My goal is for my clients to feel empowered to manage their illness through supportive education in a stigma-free environment.”</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Tracy Mason" data-role="PMHNP-BC" data-target="bio-tracy-mason">
                             Read more <i class="fas fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
