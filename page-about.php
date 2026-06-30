@@ -844,6 +844,42 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Joshua Smith -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="admin" data-aos="fade-up" data-aos-delay="0">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/josh.png"
+                            alt="Joshua Smith, Practice Director"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Joshua Smith</h4>
+                            <p class="text-brand-orange text-sm font-semibold">Practice Director</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Joshua Smith manages day-to-day practice operations, patient scheduling, and staff coordination. His attention to detail and commitment to patient care excellence ensures smooth clinic operations and positive patient experiences.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Practice Management</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Operations</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-joshua-smith">
+                            <p>Joshua Smith manages day-to-day practice operations, patient scheduling, and staff coordination. His attention to detail and commitment to patient care excellence ensures smooth clinic operations and positive patient experiences.</p>
+                            <p>With over 8 years of experience in practice management, Joshua is based in Palm Springs, CA, and completed his education at California State University. He holds a Healthcare Administration Certificate and is certified as a Practice Management Specialist.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Joshua Smith" data-role="Practice Director" data-target="bio-joshua-smith">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
