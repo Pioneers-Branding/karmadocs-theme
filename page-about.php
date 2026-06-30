@@ -612,9 +612,46 @@ get_header();
                     </div>
                 </div>
 
-                <!-- Tracy Mason -->
+                <!-- Kenneth Granados -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
                     data-category="provider" data-aos="fade-up" data-aos-delay="0">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Kenneth-Granados.PNG"
+                            alt="Dr. Kenneth Granados, DMSc, MSPAS, PA"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Kenneth Granados</h4>
+                            <p class="text-brand-orange text-sm font-semibold">DMSc, PA-C</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Dr. Granados is a physician assistant providing treatment for a wide range of complex mental health issues using medications, psychotherapy, and alternative modalities. He holds a Doctor of Medical Science (DMSc) and has a strong background in emergency medicine, addiction, and mental health care.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Physician Assistant</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Emergency Medicine</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-kenneth-granados">
+                            <p>Dr. Kenneth Granados, DMSc, MSPAS, PA provides treatment for a wide range of complex mental health issues in children, adolescents, adults and older adults using medications, psychotherapy, and other alternative modalities of treatment. Kenneth has a strong foundation in emergency medicine, addiction, and mental health care. He completed his Associates of Science in Physician Assistant Studies at Moreno Valley College in California. Early in his career he pursued advanced training in clinical medicine and completed his Master of Science in Physician Assistant Studies at A.T. Still University in Arizona. Furthermore, having a fervor desire for evidence-based medicine and research he completed his Doctor of Medical Science degree at A.T. Still University.</p>
+                            <p>Drawing from his experiences as an educator and an advocate, Dr. Granados works to empower patients to understand their mental health conditions and what avenues of treatment are available to them. Through a patient-centered and team-based approach, he actively engages his patients to participate in medical decision-making and helps them make informed choices regarding their mental health needs.</p>
+                            <p>He is passionate about supporting his patients in improving their wellness and happiness. Ultimately, he hopes to guide his patients in becoming more proactive in their overall health. In his free time, he enjoys traveling, photography, art, museums, and spending time at the beach.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Kenneth Granados" data-role="DMSc, PA-C" data-target="bio-kenneth-granados">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tracy Mason -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Tracy-Mason.jpeg"
                             alt="Tracy Mason, PMHNP-BC"
@@ -654,7 +691,7 @@ get_header();
 
                 <!-- Rachel Parker -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="admin" data-aos="fade-up" data-aos-delay="100">
+                    data-category="admin" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/rachel-parker.jpg"
                             alt="Rachel Parker, PA-C"
