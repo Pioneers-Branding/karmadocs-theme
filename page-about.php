@@ -371,9 +371,46 @@ get_header();
                     </div>
                 </div>
 
-                <!-- Bethany Minick -->
+                <!-- Dr. Yucui Chen -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
                     data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/dr-chen.webp"
+                            alt="Dr. Yucui Chen, M.D."
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Yucui Chen, M.D.</h4>
+                            <p class="text-brand-orange text-sm font-semibold">Psychiatrist</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Dr. Yucui Chen brings a holistic approach to psychiatric care, integrating Eastern and Western medical practices. She specializes in treatment-resistant depression and anxiety disorders using advanced TMS protocols.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Board Certified</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">TMS Specialist</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-yucui-chen">
+                            <p>Dr. Yucui Chen brings a holistic approach to psychiatric care, integrating Eastern and Western medical practices. She specializes in treatment-resistant depression and anxiety disorders using advanced TMS protocols.</p>
+                            <p>She completed her medical education at the University of California Medical School and her psychiatry residency at UCLA. With over 12 years of experience in integrative psychiatry and addiction medicine, Dr. Chen delivers personalized, collaborative, and evidence-based treatments to help patients achieve balanced wellness.</p>
+                            <p><strong>Credentials:</strong> M.D., Board Certified Psychiatrist, TMS Specialist, Integrative Psychiatry & Addiction Medicine Specialist.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Dr. Yucui Chen" data-role="Psychiatrist" data-target="bio-yucui-chen">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bethany Minick -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/bethany-minick.jpeg"
                             alt="Bethany Minick, LMFT"
@@ -420,7 +457,7 @@ get_header();
 
                 <!-- Raymond Chung -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/raymond-chung.jpg"
                             alt="Raymond Chung, LMFT"
@@ -521,7 +558,7 @@ get_header();
 
                 <!-- Emily Luu -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/emily-luu.jpg"
                             alt="Emily Luu, PA-C"
@@ -577,7 +614,7 @@ get_header();
 
                 <!-- Nicole Wright -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Nicole-Wright.png"
                             alt="Nicole Wright, PA-C"
@@ -614,7 +651,7 @@ get_header();
 
                 <!-- Kenneth Granados -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Kenneth-Granados.PNG"
                             alt="Dr. Kenneth Granados, DMSc, MSPAS, PA"
@@ -651,7 +688,7 @@ get_header();
 
                 <!-- Jordan Wilkins -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Jordan-Wilkins.jpg"
                             alt="Jordan Wilkins, PA-C"
@@ -686,7 +723,7 @@ get_header();
 
                 <!-- Punit Patel -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="200">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Punit.webp"
                             alt="Punit Patel, PA-C"
@@ -722,7 +759,7 @@ get_header();
 
                 <!-- Tracy Mason -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="provider" data-aos="fade-up" data-aos-delay="0">
+                    data-category="provider" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Tracy-Mason.jpeg"
                             alt="Tracy Mason, PMHNP-BC"
@@ -762,7 +799,7 @@ get_header();
 
                 <!-- Rachel Parker -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
-                    data-category="admin" data-aos="fade-up" data-aos-delay="100">
+                    data-category="admin" data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/rachel-parker.jpg"
                             alt="Rachel Parker, PA-C"
