@@ -117,7 +117,7 @@ get_header();
                                 </div>
                                 <img src="https://sunderfoundation.org/wp-content/uploads/2023/03/Dr_sunder_Award_05.jpg"
                                     alt="Award Ceremony"
-                                    class="relative rounded-xl shadow-lg w-full object-cover h-48">
+                                    class="relative rounded-xl shadow-lg w-full h-auto">
                             </div>
                         </div>
                     </div>
