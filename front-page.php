@@ -422,7 +422,7 @@ get_header();
                         <div class="ml-6">
                             <h3 class="text-xl font-semibold text-white mb-2">Cutting-Edge Tech</h3>
                             <p class="text-gray-200 text-sm leading-relaxed">
-                                Utilizing the latest FDA-cleared TMS technology for non-invasive, highly effective
+                                Utilizing the latest FDA-Cleared TMS technology for non-invasive, highly effective
                                 treatment of depression.
                             </p>
                         </div>
@@ -512,9 +512,7 @@ get_header();
                         class="text-3xl font-bold text-gray-300 group-hover:text-brand-purple transition-colors">03</span>
                 </div>
                 <h3 class="font-bold text-xl mb-3 text-gray-900">Treatment</h3>
-                <p class="text-sm text-gray-600 px-4 leading-relaxed">Begin your FDA-cleared, non-invasive sessions
-                    in our
-                    comfortable clinic. Administered by certified TMS technicians and overseen by MDs.</p>
+                <p class="text-sm text-gray-600 px-4 leading-relaxed">Begin your treatment plan-whether receiving FDA-cleared TMS sessions or personalized medication management, overseen by our board-certified medical team.</p>
             </div>
 
             <!-- Step 4 -->
