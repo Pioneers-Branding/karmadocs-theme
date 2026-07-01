@@ -533,7 +533,7 @@ get_header();
 
 <!-- Services / Conditions: Interactive Image Grid -->
 <section class="py-10 relative overflow-hidden" id="conditions"
-    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/conditions-bg.svg'); background-size: cover; background-position: center;">
+    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/bg-image.jpeg'); background-size: cover; background-position: center;">
     <div class="container mx-auto px-4">
         <div class="text-center mb-10 max-w-3xl mx-auto">
             <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-700 mb-1" data-aos="fade-up">Conditions We
