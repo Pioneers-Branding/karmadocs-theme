@@ -197,208 +197,6 @@ get_header();
                             <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
                                 <h3
                                     class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
-                                    Preliminary Observations of Personalized Repetitive Magnetic Stimulation (PrTMS)
-                                    Guided by EEG Spectra for Concussion
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Aug 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-brand-purple uppercase tracking-wider bg-brand-purple/5 px-2 py-0.5 rounded">Brain
-                                    Sciences</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Makale MT, <strong class="text-gray-900">Sunder
-                                        K</strong>, et al.</span>
-                                <span class="text-gray-500">| PMID: 37626535</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                A comprehensive study on the efficacy of personalized rTMS protocols in treating
-                                concussive symptoms with EEG guidance, demonstrating significant improvements in patient
-                                outcomes.
-                            </p>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/39118673/" target="_blank"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 2 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-orange ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-orange transition-colors">
-                                    Addiction and Reward Deficiency Syndrome (RDS): A Gene-Based Therapeutic Strategy?
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Nov 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-brand-orange uppercase tracking-wider bg-brand-orange/5 px-2 py-0.5 rounded">Addiction
-                                    Medicine</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Bowirrat A, <strong class="text-gray-900">Sunder
-                                        K</strong>, et al.</span>
-                                <span class="text-gray-500">| PMID: 38050640</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                Exploring gene-based therapeutic strategies for Reward Deficiency Syndrome and its
-                                implication in addiction treatment, proposing new pathways for intervention.
-                            </p>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/38050640/" target="_blank"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 3 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-blue-600 ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors">
-                                    Genetic Addiction Risk Score (GARS): Clinical Utility in Reward Deficiency Syndrome
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Sep 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-2 py-0.5 rounded">Medical
-                                    Archives</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
-                                        K</strong>, et al.</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                Analyzing the clinical utility of GARS in diagnosing and treating Reward Deficiency
-                                Syndrome, offering a precision medicine approach to improved patient care.
-                            </p>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/37885438/" target="_blank"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 4 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
-                                    Impact of Neuro-psychiatric Disorders on the Global Economy
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Mar 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-gray-500 uppercase tracking-wider bg-gray-100 px-2 py-0.5 rounded">Psychology</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
-                                        K</strong>, et al.</span>
-                                <span class="text-gray-500">| PMID: 37560184</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                A critical analysis of the economic burden of neuro-psychiatric disorders on a global
-                                scale, highlighting the cost-effectiveness of early intervention.
-                            </p>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/37560184/" target="_blank"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 5 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-gray-600 ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-gray-600 transition-colors">
-                                    Exploratory Analysis of Dopamine D2 Agonist Therapy
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Feb 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-gray-500 uppercase tracking-wider bg-gray-100 px-2 py-0.5 rounded">Pharmacology</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
-                                        K</strong>, Badgaiyan RD</span>
-                                <span class="text-gray-500">| PMID: 37361347</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                Investigating the potential of Dopamine D2 Agonist Therapy in treating various
-                                psychiatric conditions, emphasizing mechanism of action and clinical response.
-                            </p>
-                            <a href="https://pubmed.ncbi.nlm.nih.gov/37361347/" target="_blank"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 6 -->
-                        <!-- <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-red-500 ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-red-500 transition-colors">
-                                    Hemiplegic Migraines Exacerbated using an Injectable GLP-1 Agonist
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Jan 2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-red-500 uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded">Case
-                                    Report</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic"><strong class="text-gray-900">Sunder K</strong>, et
-                                    al.</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                Case study detailing the exacerbation of hemiplegic migraines in patients using specific
-                                GLP-1 agonists for weight loss, providing critical safety data for clinicians.
-                            </p>
-                            <a href="#"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article> -->
-
-                        <!-- Item 7 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
                                     Spectral EEG-Guided Adaptive Neuromodulation for Age-Related Cognitive Changes: A
                                     Longitudinal Case Report
                                 </h3>
@@ -426,7 +224,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 8 -->
+                        <!-- Item 2 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -463,7 +261,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 9 -->
+                        <!-- Item 3 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -501,7 +299,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 10 -->
+                        <!-- Item 4 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -537,7 +335,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 11 -->
+                        <!-- Item 5 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -575,7 +373,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 12 -->
+                        <!-- Item 6 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -612,7 +410,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 13 -->
+                        <!-- Item 7 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -650,7 +448,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 14 -->
+                        <!-- Item 8 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -687,7 +485,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 15 -->
+                        <!-- Item 9 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -724,7 +522,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 16 -->
+                        <!-- Item 10 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -760,7 +558,110 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 17 -->
+                        <!-- Item 11 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-orange ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-orange transition-colors">
+                                    Addiction and Reward Deficiency Syndrome (RDS): A Gene-Based Therapeutic Strategy?
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Nov 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-brand-orange uppercase tracking-wider bg-brand-orange/5 px-2 py-0.5 rounded">Addiction
+                                    Medicine</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Bowirrat A, <strong class="text-gray-900">Sunder
+                                        K</strong>, et al.</span>
+                                <span class="text-gray-500">| PMID: 38050640</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                Exploring gene-based therapeutic strategies for Reward Deficiency Syndrome and its
+                                implication in addiction treatment, proposing new pathways for intervention.
+                            </p>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/38050640/" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 12 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-blue-600 ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors">
+                                    Genetic Addiction Risk Score (GARS): Clinical Utility in Reward Deficiency Syndrome
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Sep 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-2 py-0.5 rounded">Medical
+                                    Archives</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
+                                        K</strong>, et al.</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                Analyzing the clinical utility of GARS in diagnosing and treating Reward Deficiency
+                                Syndrome, offering a precision medicine approach to improved patient care.
+                            </p>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/37885438/" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 13 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
+                                    Preliminary Observations of Personalized Repetitive Magnetic Stimulation (PrTMS)
+                                    Guided by EEG Spectra for Concussion
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Aug 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-brand-purple uppercase tracking-wider bg-brand-purple/5 px-2 py-0.5 rounded">Brain
+                                    Sciences</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Makale MT, <strong class="text-gray-900">Sunder
+                                        K</strong>, et al.</span>
+                                <span class="text-gray-500">| PMID: 37626535</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                A comprehensive study on the efficacy of personalized rTMS protocols in treating
+                                concussive symptoms with EEG guidance, demonstrating significant improvements in patient
+                                outcomes.
+                            </p>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/39118673/" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 14 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -796,41 +697,7 @@ get_header();
                             </a>
                         </article>
 
-                        <!-- Item 18 -->
-                        <article
-                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
-                            data-aos="fade-up">
-                            <div
-                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
-                            </div>
-                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
-                                <h3
-                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
-                                    PrTMS for Concussions
-                                </h3>
-                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">2023</span>
-                            </div>
-                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
-                                <span
-                                    class="font-bold text-brand-purple uppercase tracking-wider bg-brand-purple/5 px-2 py-0.5 rounded">Acupuncture
-                                    &amp; Integrative Medicine</span>
-                                <span class="text-gray-300">|</span>
-                                <span class="text-gray-600 italic">Makale MT, Nybo C, Blum K, Dennen CA, Elman I,
-                                    <strong class="text-gray-900">Sunder K</strong>, et al.</span>
-                            </div>
-                            <p
-                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
-                                Presents pilot clinical data on PrTMS guided by EEG spectra for the treatment of
-                                concussion, highlighting improvements in cognitive function, mood, and sleep quality
-                                through personalized neuromodulation protocols.
-                            </p>
-                            <a href="#"
-                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
-                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
-                            </a>
-                        </article>
-
-                        <!-- Item 19 -->
+                        <!-- Item 15 -->
                         <article
                             class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
                             data-aos="fade-up">
@@ -861,6 +728,139 @@ get_header();
                                 protocols.
                             </p>
                             <a href="https://doi.org/10.1016/j.heliyon.2023.e18943" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 16 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
+                                    Impact of Neuro-psychiatric Disorders on the Global Economy
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Mar 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-gray-500 uppercase tracking-wider bg-gray-100 px-2 py-0.5 rounded">Psychology</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
+                                        K</strong>, et al.</span>
+                                <span class="text-gray-500">| PMID: 37560184</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                A critical analysis of the economic burden of neuro-psychiatric disorders on a global
+                                scale, highlighting the cost-effectiveness of early intervention.
+                            </p>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/37560184/" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 17 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-gray-600 ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-gray-600 transition-colors">
+                                    Exploratory Analysis of Dopamine D2 Agonist Therapy
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Feb 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-gray-500 uppercase tracking-wider bg-gray-100 px-2 py-0.5 rounded">Pharmacology</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Blum K, <strong class="text-gray-900">Sunder
+                                        K</strong>, Badgaiyan RD</span>
+                                <span class="text-gray-500">| PMID: 37361347</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                Investigating the potential of Dopamine D2 Agonist Therapy in treating various
+                                psychiatric conditions, emphasizing mechanism of action and clinical response.
+                            </p>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/37361347/" target="_blank"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article>
+
+                        <!-- Item 18 -->
+                        <!-- <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-red-500 ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-red-500 transition-colors">
+                                    Hemiplegic Migraines Exacerbated using an Injectable GLP-1 Agonist
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">Jan 2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-red-500 uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded">Case
+                                    Report</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic"><strong class="text-gray-900">Sunder K</strong>, et
+                                    al.</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                Case study detailing the exacerbation of hemiplegic migraines in patients using specific
+                                GLP-1 agonists for weight loss, providing critical safety data for clinicians.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
+                                VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
+                            </a>
+                        </article> -->
+
+                        <!-- Item 19 -->
+                        <article
+                            class="group relative pl-8 border-l border-gray-200 hover:border-brand-purple transition-colors duration-300"
+                            data-aos="fade-up">
+                            <div
+                                class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-gray-200 group-hover:bg-brand-purple ring-4 ring-white transition-all duration-300">
+                            </div>
+                            <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-2">
+                                <h3
+                                    class="text-xl font-bold text-gray-900 leading-snug group-hover:text-brand-purple transition-colors">
+                                    PrTMS for Concussions
+                                </h3>
+                                <span class="text-xs font-mono text-gray-400 whitespace-nowrap">2023</span>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs mb-3">
+                                <span
+                                    class="font-bold text-brand-purple uppercase tracking-wider bg-brand-purple/5 px-2 py-0.5 rounded">Acupuncture
+                                    &amp; Integrative Medicine</span>
+                                <span class="text-gray-300">|</span>
+                                <span class="text-gray-600 italic">Makale MT, Nybo C, Blum K, Dennen CA, Elman I,
+                                    <strong class="text-gray-900">Sunder K</strong>, et al.</span>
+                            </div>
+                            <p
+                                class="text-sm text-gray-500 leading-relaxed max-w-3xl mb-3 line-clamp-2 group-hover:line-clamp-none transition-all duration-500">
+                                Presents pilot clinical data on PrTMS guided by EEG spectra for the treatment of
+                                concussion, highlighting improvements in cognitive function, mood, and sleep quality
+                                through personalized neuromodulation protocols.
+                            </p>
+                            <a href="#"
                                 class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
                                 VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
                             </a>
