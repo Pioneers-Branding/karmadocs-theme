@@ -4,13 +4,13 @@ get_header();
 ?>
 
     <!-- Main Content -->
-    <main class="pt-10">
+    <main class="">
 
         <!-- Exquisite Hero Section -->
         <section class="relative bg-purple-100 flex items-center overflow-hidden py-20 lg:py-0 min-h-[600px] lg:h-[70vh]">
             <!-- Right Side Background Image -->
             <div class="absolute top-0 right-0 w-full lg:w-1/2 h-full hidden lg:block z-0" style="
-                      background-image: url('https://images.unsplash.com/photo-1653038417404-1ae1f38c373e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                      background-image: url('assets/insurances/tms-research.webp');
                       background-size: cover;
                       background-position: center left;
                       background-repeat: no-repeat;
