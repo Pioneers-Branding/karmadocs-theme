@@ -860,7 +860,7 @@ get_header();
                                 concussion, highlighting improvements in cognitive function, mood, and sleep quality
                                 through personalized neuromodulation protocols.
                             </p>
-                            <a href="#"
+                            <a href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/publications/PrTMS%20for%20Concussions.pdf"
                                 class="inline-flex items-center text-xs font-bold text-brand-orange hover:text-brand-orangeHover transition-colors">
                                 VIEW ARTICLE <i class="fas fa-external-link-alt ml-1.5 text-[10px]"></i>
                             </a>
