@@ -7,12 +7,11 @@ get_header();
     <main class="">
 
         <!-- Exquisite Hero Section -->
-        <section class="relative bg-purple-100 flex items-center overflow-hidden py-20 lg:py-0 min-h-[600px] lg:h-[70vh]">
+        <section class="relative bg-purple-300 flex items-center overflow-hidden py-20 lg:py-0 min-h-[600px] lg:h-[70vh]">
             <!-- Right Side Background Image -->
             <div class="absolute top-0 right-0 w-full lg:w-1/2 h-full hidden lg:block z-0" style="
-                      background-image: url('assets/insurances/tms-research.webp');
+                      background-image: url('<?php echo get_template_directory_uri(); ?>/assets/insurances/tms-research.webp');
                       background-size: cover;
-                      background-position: center left;
                       background-repeat: no-repeat;
                   ">
             </div>
