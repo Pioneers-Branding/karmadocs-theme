@@ -132,6 +132,16 @@ get_header();
                             </div>
 
                         </div>
+
+                        <!-- A2P Compliance Statement -->
+                        <div class="mt-6 p-4 rounded-xl bg-gray-50 border border-gray-200">
+                            <p class="text-xs text-gray-600 leading-relaxed mb-2 font-medium">
+                                No mobile information will be shared with third parties or affiliates for marketing or promotional purposes.
+                            </p>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                Information sharing with subcontractors in support services, such as customer service, messaging providers, and technical support, is permitted solely for the purpose of providing our services.
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Section 4: Information Sharing -->
