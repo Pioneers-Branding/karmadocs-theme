@@ -119,6 +119,16 @@ get_header();
                             </div>
 
                         </div>
+
+                        <!-- A2P Compliance Statement -->
+                        <div class="mt-6 p-4 rounded-xl bg-gray-50 border border-gray-200">
+                            <p class="text-xs text-gray-600 leading-relaxed mb-3 font-medium">
+                                Wireless carriers are not liable for delayed or undelivered messages.
+                            </p>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                You must be 18 years of age or older to opt in to receive SMS communications from Karma Doctors & Associates, P.C. If you are under 18 years of age, a parent or legal guardian must provide consent where permitted by applicable law.
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Section 3: User Responsibilities -->
