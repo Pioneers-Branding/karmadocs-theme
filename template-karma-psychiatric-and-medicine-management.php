@@ -984,10 +984,16 @@ add_filter('body_class', function ($classes) {
             return (document.cookie.match(new RegExp('(^| )' + n + '=([^;]+)')) || [])[2] || '';
         }
 
-        document.getElementById('lp-heroForm').addEventListener('submit', function () {
+        document.getElementById('lp-heroForm').addEventListener('submit', function (event) {
             document.getElementById('lp-metaFbp').value = lpGetCookie('_fbp');
             document.getElementById('lp-metaFbc').value = lpGetCookie('_fbc');
-            if (typeof fbq === 'function') fbq('track', 'Lead', { content_name: 'TMS Consultation', content_category: 'Mental Health' });
+
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead', { content_name: 'TMS Consultation', content_category: 'Mental Health' });
+                event.preventDefault();
+                const form = event.target;
+                setTimeout(() => form.submit(), 250);
+            }
         });
     </script>
 
