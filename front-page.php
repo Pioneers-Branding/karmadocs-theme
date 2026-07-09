@@ -351,9 +351,9 @@ get_header();
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/download_ijs4qw.svg"
                     alt="Insurance" class="h-full object-contain">
             </div>
-            <div class="h-10 w-auto flex items-center justify-center">
+            <div class="h-12 w-auto flex items-center justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/desert-oasis-logo.jpg"
-                    alt="Desert Oasis Healthcare" class="h-full object-contain">
+                    alt="Desert Oasis Healthcare" class="h-full object-contain scale-110">
             </div>
             <div class="h-10 w-auto flex items-center justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/health-net.png"

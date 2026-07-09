@@ -117,7 +117,7 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/mhn.webp"
                         alt="MHN" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/desert-oasis-logo.jpg"
-                        alt="Desert Oasis Healthcare" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
+                        alt="Desert Oasis Healthcare" class="h-12 md:h-14 object-contain hover:scale-110 transition-transform">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/livewell-logo.png"
                         alt="Live Well" class="h-10 md:h-12 object-contain hover:scale-110 transition-transform">
                 </div>
