@@ -353,7 +353,7 @@ get_header();
             </div>
             <div class="h-12 w-auto flex items-center justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/desert-oasis-logo.jpg"
-                    alt="Desert Oasis Healthcare" class="h-full object-contain scale-110">
+                    alt="Desert Oasis Healthcare" class="h-full object-contain scale-110 mix-blend-multiply">
             </div>
             <div class="h-10 w-auto flex items-center justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/health-net.png"
