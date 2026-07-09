@@ -330,7 +330,7 @@ get_header();
         <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">We Accept Major Insurance Plans
         </p>
         <div
-            class="flex flex-wrap md:flex-nowrap justify-center items-center gap-8 md:gap-12 lg:gap-16 hover:opacity-100 transition-all duration-500">
+            class="flex flex-wrap justify-center items-center gap-6 md:gap-8 lg:gap-12 hover:opacity-100 transition-all duration-500">
             <!-- <div class="h-12 w-auto flex items-center justify-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/logo-bcbssc-mobile-2x_ytdpm3.png"
                         alt="BlueCross BlueShield" class="h-full object-contain">
@@ -350,6 +350,26 @@ get_header();
             <div class="h-10 w-auto flex items-center justify-center">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/cloudinary/download_ijs4qw.svg"
                     alt="Insurance" class="h-full object-contain">
+            </div>
+            <div class="h-10 w-auto flex items-center justify-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/desert-oasis-logo.jpg"
+                    alt="Desert Oasis Healthcare" class="h-full object-contain">
+            </div>
+            <div class="h-10 w-auto flex items-center justify-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/health-net.png"
+                    alt="Health Net" class="h-full object-contain">
+            </div>
+            <div class="h-10 w-auto flex items-center justify-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/iehp.png"
+                    alt="IEHP" class="h-full object-contain">
+            </div>
+            <div class="h-10 w-auto flex items-center justify-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/medicare.webp"
+                    alt="Medicare" class="h-full object-contain">
+            </div>
+            <div class="h-10 w-auto flex items-center justify-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/insurances/triwest.png"
+                    alt="TriWest" class="h-full object-contain">
             </div>
             <div
                 class="h-10 flex items-center justify-center px-4 rounded-full bg-white/90 border border-gray-200 text-xs font-bold uppercase text-gray-600 shadow-sm">
