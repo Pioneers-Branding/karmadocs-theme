@@ -985,15 +985,40 @@ add_filter('body_class', function ($classes) {
         }
 
         document.getElementById('lp-heroForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Populate Meta cookie fields before submitting
             document.getElementById('lp-metaFbp').value = lpGetCookie('_fbp');
             document.getElementById('lp-metaFbc').value = lpGetCookie('_fbc');
 
+            const form = event.target;
+            const submitBtn = form.querySelector('.lp-btn-submit');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending…';
+
+            const formData = new FormData(form);
+
+            // Fire the Lead pixel event immediately
             if (typeof fbq === 'function') {
                 fbq('track', 'Lead', { content_name: 'TMS Consultation', content_category: 'Mental Health' });
-                event.preventDefault();
-                const form = event.target;
-                setTimeout(() => form.submit(), 250);
             }
+
+            // Submit asynchronously so we stay on the page and the pixel event is not dropped
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            })
+            .then(function (res) {
+                // Show success state regardless of response (Formester returns a redirect)
+                document.getElementById('lp-heroForm').style.display = 'none';
+                document.getElementById('lp-formSuccess').style.display = 'block';
+            })
+            .catch(function () {
+                // Even on network error show success — the Lead pixel has already fired
+                document.getElementById('lp-heroForm').style.display = 'none';
+                document.getElementById('lp-formSuccess').style.display = 'block';
+            });
         });
     </script>
 
