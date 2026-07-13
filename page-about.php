@@ -918,6 +918,45 @@ get_header();
                     </div>
                 </div>
 
+                <!-- Rachel Carranza -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="admin" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Rachel-c.webp"
+                            alt="Rachel Carranza, Practice Manager"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Rachel Carranza</h4>
+                            <p class="text-brand-orange text-sm font-semibold">Practice Manager</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Rachel graduated with a bachelor's degree in Criminology and Justice Studies from CSU San Marcos. Transitioning from an intern role where she mastered neuromodulation modalities, she now serves as Practice Manager, coordinating workflow and managing scheduling.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Practice Management</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Operations</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Administration</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-rachel-carranza">
+                            <p>Rachel graduated with a Bachelor’s Degree in Criminology and Justice Studies from California State University San Marcos. She is an aspiring Law Student, who also has a deep interest in Psychiatry.</p>
+                            <p>Rachel started her journey with us as an Intern, during which she mastered the administration of various Neuromodulation and Biofeedback modalities. Rachel seamlessly integrated into the team with her charismatic personality, adept organizational skills, and her resourceful attitude.</p>
+                            <p>She transitioned from her role as an intern to Practice Manager. Rachel’s all-encompassing role includes ensuring that company goals and objectives are accomplished, and operations run efficiently, coordinating internal and external resources to expedite workflow, liaising with other executives on various projects and tasks, and coordinating and managing executive scheduling.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Rachel Carranza" data-role="Practice Manager" data-target="bio-rachel-carranza">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
 
