@@ -844,9 +844,47 @@ get_header();
                     </div>
                 </div>
 
-                <!-- Joshua Smith -->
+                <!-- Anjali Krishna -->
                 <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
                     data-category="admin" data-aos="fade-up" data-aos-delay="0">
+                    <div class="relative h-80 overflow-hidden">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Anjali-Krishna.webp"
+                            alt="Anjali Krishna, Director of Operations"
+                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
+                        </div>
+                        <div class="absolute bottom-4 left-5 right-5">
+                            <h4 class="text-white font-bold text-lg">Anjali Krishna</h4>
+                            <p class="text-brand-orange text-sm font-semibold">Director of Operations</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            Anjali holds a master's degree in biosciences and extensive research background as a clinician researcher. She transitioned into business operations and HR administration, providing strategic oversight and direction to the growth of Karma Doctors and Karma TMS.
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Business Operations</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">HR Administration</span>
+                            <span
+                                class="px-3 py-1 bg-brand-purple/5 text-brand-purple text-xs font-semibold rounded-full">Clinical Trials</span>
+                        </div>
+                        <div class="mt-4 hidden" id="bio-anjali-krishna">
+                            <p>Anjali graduated with a masters degree in biosciences. She has received extensive training in Medical and Psychiatric Clinical Trials and holds research certification from the University of California San Diego. As a sub-investigator overseeing numerous clinical trials in Schizophrenia, Depression, Bipolar Disorder, PTSD, and Substance Disorders, Anjali mastered the art and science of psychometric data collection that included SCID, CAPS, BDI, HAM-D, EPDS and several other scales.</p>
+                            <p>Anjali transitioned from her Clinician Researcher role to business operations, human resource administration, and providing strategic oversight and direction to the growth of Karma Doctors & Karma TMS companies. Additionally, she enjoys the interface of Neurotechnology and Mental Health. In this role she has helped in the development and implementation of Karma EHR as well as training herself in the application of Neurofeedback, NuCalm, and TMS.</p>
+                        </div>
+                        <button type="button"
+                            class="bio-trigger mt-4 inline-flex items-center gap-1 text-brand-orange text-xs font-bold uppercase tracking-wider hover:text-brand-orangeHover transition-colors"
+                            data-name="Anjali Krishna" data-role="Director of Operations" data-target="bio-anjali-krishna">
+                            Read more <i class="fas fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Joshua Smith -->
+                <div class="team-card group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-gray-100"
+                    data-category="admin" data-aos="fade-up" data-aos-delay="100">
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/josh.png"
                             alt="Joshua Smith, Practice Director"
