@@ -169,5 +169,202 @@ get_header();
     </div>
 </div>
 
+<!-- Gallery Section -->
+<?php
+$gallery_uri = get_template_directory_uri() . '/assets/gallery';
+$gallery_images = array(
+    array('file' => 'ES6A4907.webp', 'w' => 534, 'h' => 800, 'caption' => 'Welcome Area',            'alt' => 'Reception area at Karma Doctors with a purple accent wall, patient reading materials and a large plant'),
+    array('file' => 'ES6A4927.webp', 'w' => 800, 'h' => 543, 'caption' => 'Our Philosophy',          'alt' => 'KDA logo on the lobby wall with the words: When you tune your brain, you tune your life'),
+    array('file' => 'ES6A5095.webp', 'w' => 800, 'h' => 506, 'caption' => 'Notes of Gratitude',      'alt' => 'Framed photograph of a naval hospital surrounded by handwritten messages of thanks from colleagues'),
+    array('file' => 'ES6A4997.webp', 'w' => 534, 'h' => 800, 'caption' => 'A Place to Settle In',    'alt' => 'Quiet corner of the clinic with a wooden rocking bench, soft blankets and a warm leaf-shaped lamp'),
+    array('file' => 'ES6A5085.webp', 'w' => 800, 'h' => 550, 'caption' => 'Honoring Those Who Serve', 'alt' => 'Framed display case holding a folded United States flag and emblems of all branches of the armed forces'),
+    array('file' => 'ES6A5122.webp', 'w' => 534, 'h' => 800, 'caption' => 'Front Desk',              'alt' => 'Reception window where a member of the Karma Doctors team greets arriving patients'),
+    array('file' => 'ES6A4942.webp', 'w' => 534, 'h' => 800, 'caption' => 'Moments of Recognition',  'alt' => 'Decorative peacock wall clock below a shelf displaying a Purple Heart and a United States Marine Corps plaque'),
+    array('file' => 'ES6A5162.webp', 'w' => 800, 'h' => 534, 'caption' => 'Art That Heals',          'alt' => 'Colourful abstract painting of flowers, hands and a heart displayed on the clinic wall'),
+    array('file' => 'ES6A4971.webp', 'w' => 513, 'h' => 800, 'caption' => 'A Quiet Corner',          'alt' => 'Reclaimed wood bench beneath a framed We Can Do It poster and a folded flag display'),
+    array('file' => 'ambience-1.webp', 'w' => 535, 'h' => 800, 'caption' => 'Service Remembered',    'alt' => 'Engraved wooden plaque mounted above a framed and signed farewell photograph'),
+);
+?>
+<section class="relative py-20 lg:py-28 bg-white overflow-hidden" id="gallery">
+    <!-- Soft decorative wash -->
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-brand-purple/5 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-brand-orange/5 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Heading -->
+        <div class="max-w-2xl mx-auto text-center mb-14" data-aos="fade-up">
+            <span
+                class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-brand-purple bg-brand-purple/10 px-4 py-1.5 rounded-full mb-5">
+                <i class="fas fa-camera-retro"></i> Our Gallery
+            </span>
+            <h2 class="font-sans text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                Step Inside <span class="text-brand-purple">Our Space</span>
+            </h2>
+            <p class="text-gray-500 font-light leading-relaxed">
+                A calm, welcoming environment designed to put you at ease from the moment you walk in.
+                Take a look around before your first visit.
+            </p>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="columns-1 sm:columns-2 lg:columns-3 gap-5 max-w-6xl mx-auto" id="gallery-grid">
+            <?php foreach ($gallery_images as $i => $img) : ?>
+                <button type="button"
+                    class="gallery-item group relative block w-full mb-5 break-inside-avoid overflow-hidden rounded-2xl bg-gray-100 shadow-sm hover:shadow-xl focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-purple/40 transition-shadow duration-300"
+                    data-index="<?php echo $i; ?>"
+                    data-full="<?php echo esc_url($gallery_uri . '/' . $img['file']); ?>"
+                    data-caption="<?php echo esc_attr($img['caption']); ?>"
+                    data-alt="<?php echo esc_attr($img['alt']); ?>"
+                    aria-label="<?php echo esc_attr('View larger image: ' . $img['caption']); ?>"
+                    data-aos="fade-up" data-aos-delay="<?php echo ($i % 3) * 100; ?>">
+                    <img src="<?php echo esc_url($gallery_uri . '/thumbs/' . $img['file']); ?>"
+                        alt="<?php echo esc_attr($img['alt']); ?>"
+                        width="<?php echo esc_attr($img['w']); ?>" height="<?php echo esc_attr($img['h']); ?>"
+                        loading="lazy" decoding="async"
+                        class="w-full h-auto block transition-transform duration-700 ease-out group-hover:scale-105">
+
+                    <!-- Hover overlay -->
+                    <span
+                        class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/10 to-transparent opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity duration-300"></span>
+                    <span
+                        class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100 transition-all duration-300">
+                        <span class="text-white font-sans font-semibold text-sm text-left leading-snug">
+                            <?php echo esc_html($img['caption']); ?>
+                        </span>
+                        <span
+                            class="w-9 h-9 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-expand text-white text-xs"></i>
+                        </span>
+                    </span>
+                </button>
+            <?php endforeach; ?>
+        </div>
+
+        <!-- CTA -->
+        <div class="text-center mt-14" data-aos="fade-up">
+            <p class="text-gray-500 mb-5">Ready to see it for yourself?</p>
+            <a href="tel:19512978375"
+                class="inline-flex items-center gap-2 bg-brand-purple hover:bg-brand-purpleLight text-white font-semibold px-8 py-3.5 rounded-full transition-colors shadow-lg shadow-brand-purple/20">
+                <i class="fas fa-phone-alt text-sm"></i> Book Your Visit
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Lightbox -->
+<div id="gallery-lightbox" class="fixed inset-0 z-[100] hidden opacity-0 transition-opacity duration-300" role="dialog"
+    aria-modal="true" aria-label="Image gallery viewer">
+    <div class="absolute inset-0 bg-brand-dark/95 backdrop-blur-sm" data-lb-close></div>
+
+    <!-- Close -->
+    <button type="button" data-lb-close aria-label="Close gallery"
+        class="absolute top-5 right-5 z-20 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white flex items-center justify-center transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40">
+        <i class="fas fa-times"></i>
+    </button>
+
+    <!-- Counter -->
+    <div class="absolute top-7 left-5 z-20 text-white/70 text-sm font-medium tracking-wider">
+        <span id="lb-current">1</span> / <?php echo count($gallery_images); ?>
+    </div>
+
+    <!-- Prev -->
+    <button type="button" data-lb-prev aria-label="Previous image"
+        class="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white flex items-center justify-center transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+
+    <!-- Next -->
+    <button type="button" data-lb-next aria-label="Next image"
+        class="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-20 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white flex items-center justify-center transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+
+    <!-- Stage -->
+    <figure class="relative z-10 h-full flex flex-col items-center justify-center px-14 md:px-24 py-16 pointer-events-none">
+        <img id="lb-image" src="" alt=""
+            class="max-w-full max-h-[78vh] object-contain rounded-lg shadow-2xl opacity-0 transition-opacity duration-300">
+        <figcaption id="lb-caption"
+            class="mt-5 text-center text-white font-sans font-medium text-base md:text-lg tracking-wide"></figcaption>
+    </figure>
+</div>
+
+<script>
+    (function () {
+        var grid = document.getElementById('gallery-grid');
+        var lb = document.getElementById('gallery-lightbox');
+        if (!grid || !lb) return;
+
+        var items = Array.prototype.slice.call(grid.querySelectorAll('.gallery-item'));
+        var img = document.getElementById('lb-image');
+        var caption = document.getElementById('lb-caption');
+        var counter = document.getElementById('lb-current');
+        var index = 0;
+        var lastFocused = null;
+
+        function show(i) {
+            index = (i + items.length) % items.length;
+            var el = items[index];
+            img.style.opacity = 0;
+            var next = new Image();
+            next.onload = function () {
+                img.src = next.src;
+                img.alt = el.dataset.alt;
+                img.style.opacity = 1;
+            };
+            next.src = el.dataset.full;
+            caption.textContent = el.dataset.caption;
+            counter.textContent = index + 1;
+        }
+
+        function open(i) {
+            lastFocused = document.activeElement;
+            lb.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            show(i);
+            requestAnimationFrame(function () { lb.style.opacity = 1; });
+            lb.querySelector('[data-lb-next]').focus();
+        }
+
+        function close() {
+            lb.style.opacity = 0;
+            document.body.style.overflow = '';
+            setTimeout(function () {
+                lb.classList.add('hidden');
+                img.src = '';
+            }, 300);
+            if (lastFocused) lastFocused.focus();
+        }
+
+        items.forEach(function (el, i) {
+            el.addEventListener('click', function () { open(i); });
+        });
+
+        lb.querySelectorAll('[data-lb-close]').forEach(function (el) {
+            el.addEventListener('click', close);
+        });
+        lb.querySelector('[data-lb-prev]').addEventListener('click', function () { show(index - 1); });
+        lb.querySelector('[data-lb-next]').addEventListener('click', function () { show(index + 1); });
+
+        document.addEventListener('keydown', function (e) {
+            if (lb.classList.contains('hidden')) return;
+            if (e.key === 'Escape') close();
+            else if (e.key === 'ArrowLeft') show(index - 1);
+            else if (e.key === 'ArrowRight') show(index + 1);
+        });
+
+        // Swipe support on touch devices
+        var startX = null;
+        lb.addEventListener('touchstart', function (e) { startX = e.changedTouches[0].clientX; }, { passive: true });
+        lb.addEventListener('touchend', function (e) {
+            if (startX === null) return;
+            var dx = e.changedTouches[0].clientX - startX;
+            if (Math.abs(dx) > 50) show(dx > 0 ? index - 1 : index + 1);
+            startX = null;
+        }, { passive: true });
+    })();
+</script>
+
 <!-- Footer -->
 <?php get_footer(); ?>
