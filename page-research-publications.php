@@ -114,8 +114,9 @@ get_header();
                                 <div
                                     class="absolute -inset-4 bg-gradient-to-r from-brand-purple to-brand-orange opacity-20 blur-xl rounded-2xl">
                                 </div>
-                                <img src="https://sunderfoundation.org/wp-content/uploads/2023/03/Dr_sunder_Award_05.jpg"
-                                    alt="Award Ceremony"
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/gallery/research/Dr_sunder_Award_05.webp"
+                                    alt="Dr. Keerthy Sunder accepting the Golden Axon Leadership Award on stage at the 2023 SBMT Gala"
+                                    width="791" height="489" loading="lazy" decoding="async"
                                     class="relative rounded-xl shadow-lg w-full h-auto">
                             </div>
                         </div>
@@ -157,6 +158,32 @@ get_header();
         <!-- Publications (Sticky Sidebar Layout) -->
         <section id="publications" class="py-24 bg-white relative">
             <div class="container mx-auto px-4 max-w-7xl">
+
+                <!-- Research Board Feature -->
+                <figure class="mb-20" data-aos="fade-up">
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/gallery/research/karma-tms-research.webp"
+                        target="_blank" rel="noopener"
+                        class="group relative block rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-purple/40"
+                        aria-label="Open a full-size view of the Karma TMS Neuromodulation research publications board">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/gallery/research/karma-tms-research.webp"
+                            alt="Karma TMS Neuromodulation Research Publications board listing eight peer-reviewed studies published in Frontiers in Psychiatry, Acta Scientific Neurology, and EC Clinical and Medical Case Reports"
+                            width="2400" height="1556" loading="lazy" decoding="async"
+                            class="w-full h-auto block transition-transform duration-700 ease-out group-hover:scale-[1.02]">
+
+                        <!-- Hover affordance -->
+                        <span
+                            class="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition-opacity duration-300"></span>
+                        <span
+                            class="absolute bottom-5 right-5 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/95 backdrop-blur-sm text-gray-900 text-xs font-bold uppercase tracking-widest opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 group-focus-visible:opacity-100 group-focus-visible:translate-y-0 transition-all duration-300">
+                            <i class="fas fa-expand text-[10px] text-brand-purple"></i> View Full Size
+                        </span>
+                    </a>
+                    <figcaption class="mt-5 text-center text-sm text-gray-500 font-light">
+                        Our neuromodulation research board &mdash; eight peer-reviewed studies from the
+                        <span class="text-gray-700 font-medium">Division of Clinical Neuromodulation Research</span>.
+                    </figcaption>
+                </figure>
+
                 <div class="flex flex-col lg:flex-row gap-12 xl:gap-24">
 
                     <!-- Sticky Sidebar Header -->
