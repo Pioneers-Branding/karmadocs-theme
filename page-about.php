@@ -963,7 +963,7 @@ get_header();
                     <div class="relative h-80 overflow-hidden">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/team/Ricardo.webp"
                             alt="Ricardo Hernandez, Director of Communications"
-                            class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                            class="w-full h-full object-cover object-[50%_20%] transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
                         </div>
                         <div class="absolute bottom-4 left-5 right-5">
