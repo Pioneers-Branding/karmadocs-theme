@@ -77,6 +77,14 @@ function karmadocs_custom_meta() {
 }
 add_action('wp_head', 'karmadocs_custom_meta', 1);
 
+// Facebook (Meta) domain verification - homepage only, as Meta crawls the root URL
+function karmadocs_facebook_domain_verification() {
+    if ( is_front_page() ) {
+        echo '<meta name="facebook-domain-verification" content="zgpw5nbikaspzue5i5cgtacxo1gt49" />' . "\n";
+    }
+}
+add_action('wp_head', 'karmadocs_facebook_domain_verification', 1);
+
 function karmadocs_custom_title( $title ) {
     if ( is_page('patient-education') ) {
         return 'Mental Health Resources & Support | Patient Education Library';
